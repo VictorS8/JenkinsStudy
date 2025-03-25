@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        TEXT = 'TEXT'
+        DOUBLE_TEXT = "Text do ${TEXT}"
+    }
+
     stages {
         stage('Begin') {
             steps {
@@ -10,6 +15,8 @@ pipeline {
 
                     echo "Stage Name : ${env.STAGE_NAME}"
                     echo "Build Number : ${env.BUILD_NUMBER}"
+                    echo "My text: ${env.TEXT}"
+                    echo "My double text: ${env.DOUBLE_TEXT}"
                 }
             }
         }
