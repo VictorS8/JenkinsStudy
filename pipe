@@ -5,8 +5,7 @@ pipeline {
         stage('Begin') {
             steps {
                 script {
-                    echo "Iniciando o pipeline"
-                    
+                    echo 'Iniciando o pipeline'
                     currentBuild.description = env.STAGE_NAME
 
                     echo "Stage Name : ${env.STAGE_NAME}"
@@ -24,12 +23,25 @@ pipeline {
                     steps {
                         echo 'Installing'
                         sleep(time: 20, unit: 'SECONDS')
-                    }  
-                }   
+                    }
+                }
                 stage('Test') {
                     steps {
                         echo 'Testing'
                         sleep(time: 20, unit: 'SECONDS')
+                    }
+                }
+                stage('Report') {
+                    steps {
+                        script {
+                            def testResultFile = './results.xml'
+                            if (fileExists(testResultFile)) {
+                                junit testResults: testResultFile
+                            } else {
+                                echo 'No test result found!'
+                            }
+                        }
+                        archiveArtifacts artifacts: "${RESULT_JUNIT_PATH}/${RESULT_JUNIT_FILENAME}", onlyIfSuccessful: true
                     }
                 }
             }
