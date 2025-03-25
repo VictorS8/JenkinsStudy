@@ -47,7 +47,7 @@ pipeline {
                 if (fileExists(testResultFile)) {
                     echo 'Test result found!'
                     def testResult = junit testResults: testResultFile, skipPublishingChecks: true
-                    echo "Test Result: ${testResult.totalCount} total, ${testResult.passedCount} passed, ${testResult.failedCount} failed"
+                    echo "Test Result: ${testResult.totalCount} total, ${testResult.passCount} passed, ${testResult.failCount} failed"
                 } else {
                     echo 'No test result found!'
                 }
