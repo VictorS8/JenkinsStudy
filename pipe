@@ -43,15 +43,19 @@ pipeline {
     post {
         success {
             script {
-                def testResultFile = 'results.xml'
-                if (fileExists(testResultFile)) {
-                    echo 'Test result found!'
-                    def testResult = junit testResults: testResultFile, skipPublishingChecks: true
-                    echo "Test Result: ${testResult.totalCount} total, ${testResult.passCount} passed, ${testResult.failCount} failed"
-                } else {
-                    echo 'No test result found!'
-                }
+                test()
             }
         }
+    }
+}
+
+def test() {
+    def testResultFile = 'results.xml'
+    if (fileExists(testResultFile)) {
+        echo 'Test result found!'
+        def testResult = junit testResults: testResultFile, skipPublishingChecks: true
+        echo "Test Result: ${testResult.totalCount} total, ${testResult.passCount} passed, ${testResult.failCount} failed"
+                } else {
+        echo 'No test result found!'
     }
 }
