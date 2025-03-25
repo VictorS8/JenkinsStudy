@@ -33,7 +33,7 @@ pipeline {
                 }
                 stage('Report') {
                     steps {
-                        archiveArtifacts artifacts: './results.xml', onlyIfSuccessful: true
+                        archiveArtifacts artifacts: 'results.xml', onlyIfSuccessful: true
                     }
                 }
             }
@@ -43,7 +43,7 @@ pipeline {
     post {
         success {
             script {
-                def testResultFile = './results.xml'
+                def testResultFile = 'results.xml'
                 if (fileExists(testResultFile)) {
                     echo 'Test result found!'
                     def testResult = junit testResults: testResultFile, skipPublishingChecks: true
