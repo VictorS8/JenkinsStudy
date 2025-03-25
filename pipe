@@ -1,27 +1,33 @@
 pipeline {
     agent any
-    
-    stage('Test') {
-        steps {
-            script {
-                currentBuild.description = env.STAGE_NAME
 
-                echo "Stage Name : ${env.STAGE_NAME}"
-                echo "Build Number : ${env.BUILD_NUMBER}"
-                
+    stages {
+        stage('Begin') {
+            steps {
+                script {
+                    echo "Iniciando o pipeline"
+                    
+                    currentBuild.description = env.STAGE_NAME
+
+                    echo "Stage Name : ${env.STAGE_NAME}"
+                    echo "Build Number : ${env.BUILD_NUMBER}"
+                }
             }
+        }
 
-            sleep(time: 30, unit: 'SECONDS')
-
-            script {
-                def jobName1 = "ProjetoB"
-                def jobName2 = "ProjetoC"
-                    
-                def job1 = Jenkins.instance.getItemByFullName(jobName1)
-                def job2 = Jenkins.instance.getItemByFullName(jobName2)  
-                    
-                echo "ProjetoB : ${job1.getLastBuild.isBuilding()}"
-                echo "ProjetoC : ${job2.getLastBuild.isBuilding()}"
+        stage('Test') {
+            steps {
+                script {
+                    def jobName1 = "ProjetoB"
+                    def jobName2 = "ProjetoC"
+                        
+                    def job1 = Jenkins.instance.getItemByFullName(jobName1)
+                    def job2 = Jenkins.instance.getItemByFullName(jobName2)  
+                        
+                    echo "ProjetoB : ${job1.getLastBuild.isBuilding()}"
+                    echo "ProjetoC : ${job2.getLastBuild.isBuilding()}"
+                }
+                sleep(time: 60, unit: 'SECONDS')
             }
         }
     }
