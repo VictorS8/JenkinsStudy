@@ -15,10 +15,18 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                lock('ios-device') {
-                    sleep(time: 60, unit: 'SECONDS')
+        lock('ios-device') {
+            stage('Install') {
+                steps {
+                    echo 'Installing'
+                    sleep(time: 20, unit: 'SECONDS')
+                }
+            }
+
+            stage('Test') {
+                steps {
+                    echo 'Testing'
+                    sleep(time: 20, unit: 'SECONDS')
                 }
             }
         }
