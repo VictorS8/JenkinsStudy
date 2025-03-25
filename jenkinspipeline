@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    
+    stage('Test') {
+        steps {
+            script {
+                currentBuild.description = env.STAGE_NAME
+
+                echo "Stage Name : ${env.STAGE_NAME}"
+                echo "Build Number : ${env.BUILD_NUMBER}"
+                
+                sleep 60
+            }
+        }
+    }
+}
