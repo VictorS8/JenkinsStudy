@@ -22,13 +22,13 @@ pipeline {
                 stage('Install') {
                     steps {
                         echo 'Installing'
-                        sleep(time: 20, unit: 'SECONDS')
+                        sleep(time: 5, unit: 'SECONDS')
                     }
                 }
                 stage('Test') {
                     steps {
                         echo 'Testing'
-                        sleep(time: 20, unit: 'SECONDS')
+                        sleep(time: 5, unit: 'SECONDS')
                     }
                 }
                 stage('Report') {
@@ -45,6 +45,21 @@ pipeline {
                         echo 'archiving artifacts'
                         archiveArtifacts artifacts: './results.xml', onlyIfSuccessful: true
                     }
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            script {
+                def testResultFile = './results.xml'
+                if (fileExists(testResultFile)) {
+                    echo 'Test result found!'
+                    def testResult junit testResults: testResultFile
+                    echo "Test Result: ${testResult.totalCount} total, ${testResult.passedCount} passed, ${testResult.failedCount} failed"
+                } else {
+                    echo 'No test result found!'
                 }
             }
         }
