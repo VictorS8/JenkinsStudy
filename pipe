@@ -17,17 +17,9 @@ pipeline {
 
         stage('Test') {
             steps {
-                script {
-                    def jobName1 = "ProjetoB"
-                    def jobName2 = "ProjetoC"
-                        
-                    def job1 = Jenkins.instance.getItemByFullName(jobName1)
-                    def job2 = Jenkins.instance.getItemByFullName(jobName2)  
-                        
-                    echo "ProjetoB : ${job1.getLastBuild.isBuilding()}"
-                    echo "ProjetoC : ${job2.getLastBuild.isBuilding()}"
+                lock('iphone-device') {
+                    sleep(time: 60, unit: 'SECONDS')
                 }
-                sleep(time: 60, unit: 'SECONDS')
             }
         }
     }
