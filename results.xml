@@ -1,1 +1,66 @@
-<testsuites name="PARALLEL_TESTS" tests="0" failures="0" />
+<testsuites name="All tests" tests="24" failures="0">
+    <testsuite name="MusicVideosAutomatedUITests.BlockUserFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.BlockUserFeature" name="testBlockUser" time="98.348" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.DeleteFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.DeleteFeature" name="testDeleteSentPhoto" time="41.955" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.LikeMusicVideoFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.LikeMusicVideoFeature" name="testSelectAMusicVideoInBrowser" time="98.353" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.LoginFeature" tests="2" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.LoginFeature" name="testLoginFails" time="26.925" />
+        <testcase classname="MusicVideosAutomatedUITests.LoginFeature" name="testLoginSucceeds" time="32.664" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.MakeMusicVideoFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.MakeMusicVideoFeature" name="testMakeMusicVideoOneClick" time="163.411" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.MakeSnapshotFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.MakeSnapshotFeature" name="testMakeSnapshotWithOneClick" time="99.075" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.SendPhotosFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.SendPhotosFeature" name="testSendPhotoToMusicVideo" time="37.514" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.SignUpFeature" tests="2" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.SignUpFeature" name="testSignUpFails" time="37.379" />
+        <testcase classname="MusicVideosAutomatedUITests.SignUpFeature" name="testSignUpSuccess" time="40.949" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.TabBarFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.TabBarFeature" name="testTapInDifferentButtonsInTabBar" time="60.948" />
+    </testsuite>
+    <testsuite name="MusicVideosAutomatedUITests.VerificationFeature" tests="1" failures="0">
+        <testcase classname="MusicVideosAutomatedUITests.VerificationFeature" name="testVerifyEachSubTabFilterOnSearchTab" time="57.475" />
+    </testsuite>
+    <testsuite name="BlockUserFeature" tests="1" failures="0">
+        <testcase classname="BlockUserFeature" name="testBlockUser" time="98.348" />
+    </testsuite>
+    <testsuite name="DeleteFeature" tests="1" failures="0">
+        <testcase classname="DeleteFeature" name="testDeleteSentPhoto" time="41.955" />
+    </testsuite>
+    <testsuite name="LikeMusicVideoFeature" tests="1" failures="0">
+        <testcase classname="LikeMusicVideoFeature" name="testSelectAMusicVideoInBrowser" time="98.353" />
+    </testsuite>
+    <testsuite name="LoginFeature" tests="2" failures="0">
+        <testcase classname="LoginFeature" name="testLoginFails" time="26.925" />
+        <testcase classname="LoginFeature" name="testLoginSucceeds" time="32.664" />
+    </testsuite>
+    <testsuite name="MakeMusicVideoFeature" tests="1" failures="0">
+        <testcase classname="MakeMusicVideoFeature" name="testMakeMusicVideoOneClick" time="163.411" />
+    </testsuite>
+    <testsuite name="MakeSnapshotFeature" tests="1" failures="0">
+        <testcase classname="MakeSnapshotFeature" name="testMakeSnapshotWithOneClick" time="99.075" />
+    </testsuite>
+    <testsuite name="SendPhotosFeature" tests="1" failures="0">
+        <testcase classname="SendPhotosFeature" name="testSendPhotoToMusicVideo" time="37.514" />
+    </testsuite>
+    <testsuite name="SignUpFeature" tests="2" failures="0">
+        <testcase classname="SignUpFeature" name="testSignUpFails" time="37.379" />
+        <testcase classname="SignUpFeature" name="testSignUpSuccess" time="40.949" />
+    </testsuite>
+    <testsuite name="TabBarFeature" tests="1" failures="0">
+        <testcase classname="TabBarFeature" name="testTapInDifferentButtonsInTabBar" time="60.948" />
+    </testsuite>
+    <testsuite name="VerificationFeature" tests="1" failures="0">
+        <testcase classname="VerificationFeature" name="testVerifyEachSubTabFilterOnSearchTab" time="57.475" />
+    </testsuite>
+</testsuites>

@@ -33,16 +33,6 @@ pipeline {
                 }
                 stage('Report') {
                     steps {
-                        script {
-                            def testResultFile = './results.xml'
-                            if (fileExists(testResultFile)) {
-                                echo 'Test result found!'
-                                junit testResults: testResultFile, skipPublishingChecks: true
-                            } else {
-                                echo 'No test result found!'
-                            }
-                        }
-                        echo 'archiving artifacts'
                         archiveArtifacts artifacts: './results.xml', onlyIfSuccessful: true
                     }
                 }
