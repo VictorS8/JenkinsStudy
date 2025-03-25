@@ -17,6 +17,9 @@ pipeline {
                     echo "Build Number : ${env.BUILD_NUMBER}"
                     echo "My text: ${env.TEXT}"
                     echo "My double text: ${env.DOUBLE_TEXT}"
+                    def textNow = ''
+                    textNow = "Agora é ${env.TEXT} + ${env.DOUBLE_TEXT}"
+                    echo textNow
                 }
             }
         }
