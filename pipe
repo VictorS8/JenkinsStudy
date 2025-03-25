@@ -75,8 +75,8 @@ def test() {
         def failed = testResult.failCount
 
         def echoMessage = (failed > 0) ?
-        "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}" 
-        : "Total: ${total}\n- Passed: ${passed}"
+            "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}" 
+            : "Total: ${total}\n- Passed: ${passed}"
         echo echoMessage
         echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
     } else {
