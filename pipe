@@ -36,12 +36,14 @@ pipeline {
                         script {
                             def testResultFile = './results.xml'
                             if (fileExists(testResultFile)) {
+                                echo 'Test result found!'
                                 junit testResults: testResultFile
                             } else {
                                 echo 'No test result found!'
                             }
                         }
-                        archiveArtifacts artifacts: "${RESULT_JUNIT_PATH}/${RESULT_JUNIT_FILENAME}", onlyIfSuccessful: true
+                        echo 'archiving artifacts'
+                        archiveArtifacts artifacts: './results.xml', onlyIfSuccessful: true
                     }
                 }
             }
