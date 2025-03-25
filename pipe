@@ -56,7 +56,7 @@ pipeline {
                 def testResultFile = './results.xml'
                 if (fileExists(testResultFile)) {
                     echo 'Test result found!'
-                    def testResult junit testResults: testResultFile
+                    def testResult = junit testResults: testResultFile
                     echo "Test Result: ${testResult.totalCount} total, ${testResult.passedCount} passed, ${testResult.failedCount} failed"
                 } else {
                     echo 'No test result found!'
