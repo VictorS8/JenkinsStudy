@@ -33,7 +33,10 @@ pipeline {
                 }
                 stage('Report') {
                     steps {
-                        archiveArtifacts artifacts: 'results.xml', onlyIfSuccessful: true
+                        archiveArtifacts(
+                            artifacts: 'results.xml', 
+                            onlyIfSuccessful: true
+                        )
                     }
                 }
             }
@@ -57,8 +60,16 @@ def test() {
             testResults: testResultFile,
             skipPublishingChecks: true
             )
-        echo "Test Result: ${testResult.totalCount} total, ${testResult.passCount} passed, ${testResult.failCount} failed"
-                } else {
+        def total = testResult.totalCount
+        def passed = testResult.passCount
+        def failed = testResult.failCount
+
+        def echoMessage = (failed > 0) ?
+        "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}" 
+        : "Total: ${total}\n- Passed: ${passed}"
+        echo echoMessage
+        echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
+    } else {
         echo 'No test result found!'
     }
 }
