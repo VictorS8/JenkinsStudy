@@ -69,26 +69,18 @@ def test() {
         echo 'Test result found!'
         def testResult = junit(
             testResults: testResultFile,
-            skipPublishingChecks: true)
+            skipPublishingChecks: true,
+            )
         def total = testResult.totalCount
         def passed = testResult.passCount
         def failed = testResult.failCount
 
         def echoMessage = (failed > 0) ?
             "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}"
-            : "Total: ${total}\n- Passed: ${passed}"
+            : "All ${passed} tests passed!"
         echo echoMessage
-        echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
 
-        // def junitResult = junit(
-        //     keepProperties: true,
-        //     keepTestNames: true,
-        //     skipPublishingChecks: true,
-        //     stdioRetention: 'FAILED',
-        //     testResults: 'results.xml'
-        // )
-
-        def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction.class)
+        def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
         if (testAction != null) {
             // Acessa detalhes do resultado
             def detalhes = testAction.getResult()
@@ -96,14 +88,22 @@ def test() {
 
             if (casosDeTesteFalhos.size() > 0) {
                 echo "📛 Testes com Falha: ${casosDeTesteFalhos.size()}"
-
+                def failedTestsText = ''
+                echo failedTestsText
                 // Iterando sobre os testes que falharam
                 for (def caso in casosDeTesteFalhos) {
                     echo "🚨 Falha no Teste: ${caso.getFullName()}"
                     echo "📝 Erro: ${caso.getErrorDetails()}"
                     echo "📜 Stack Trace: \n${caso.getErrorStackTrace()}"
+
+                    failedTestsText.join("Falha no Teste: ${caso.getFullName()}\n")
+                    failedTestsText.join("Erro: ${caso.getErrorDetails()}\n")
+                    failedTestsText.join("Stack Trace: \n${caso.getErrorStackTrace()}\n")
+                    failedTestsText.join("\n")
                 }
-                            } else {
+                
+                echo failedTestsText
+            } else {
                 echo '✅ Nenhum teste falhou.'
             }
                         } else {
