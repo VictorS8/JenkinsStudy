@@ -103,6 +103,9 @@ def test() {
                 }
                 
                 echo failedTestsText
+
+                def buildLogPath = "${jobName}_#${env.BUILD_NAME}_test_log.txt"
+                writeFile file: buildLogPath, text: failedTestsText
             } else {
                 echo '✅ Nenhum teste falhou.'
             }
