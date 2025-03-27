@@ -101,6 +101,8 @@ def test() {
                 
                 echo failedTestsText
 
+                echo 'Salvando log de falhas...'
+
                 // def buildLogPath = "show_${env.JOB_NAME}_#${env.BUILD_NAME}_test_log.txt"
                 // writeFile file: buildLogPath, text: failedTestsText
             } else {
