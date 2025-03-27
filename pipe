@@ -88,7 +88,7 @@ def test() {
         //     testResults: 'results.xml'
         // )
 
-        def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
+        def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction.class)
         if (testAction != null) {
             // Acessa detalhes do resultado
             def detalhes = testAction.getResult()
