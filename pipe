@@ -6,11 +6,6 @@ pipeline {
         DOUBLE_TEXT = "Text do ${TEXT}"
     }
 
-    triggers {
-        // Verifica a branch 'main' a cada 2 minutos
-        pollSCM('H/2 * * * *')
-    }
-
     stages {
         stage('Begin') {
             steps {
