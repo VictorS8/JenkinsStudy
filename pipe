@@ -99,8 +99,8 @@ def test() {
 
                 echo 'Salvando log de falhas...'
 
-                def buildLogPath = "show_${env.JOB_NAME}_#${env.BUILD_NAME}_test_log.txt"
-                writeFile(file: buildLogPath, text: failedTestsText, encoding: 'UTF-8')
+                def buildLogPath = 'build_log.txt'
+                writeFile(file: buildLogPath, text: failedTestsText)
                 echo "Log de falhas salvo em ${buildLogPath}"
             } else {
                 echo 'Nenhum teste falhou.'
