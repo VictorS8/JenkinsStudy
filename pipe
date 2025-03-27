@@ -100,12 +100,12 @@ def test() {
                 echo 'Salvando log de falhas...'
 
                 def buildLogPath = 'build_log.txt'
-                writeFile(file: buildLogPath, text: failedTestsText)
+                writeFile(file: buildLogPath, text: failedTestsText.toString())
                 echo "Log de falhas salvo em ${buildLogPath}"
             } else {
                 echo 'Nenhum teste falhou.'
             }
-                        } else {
+        } else {
             echo 'Nenhum resultado de teste foi encontrado!'
         }
     } else {
