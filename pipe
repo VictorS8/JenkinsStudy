@@ -96,20 +96,18 @@ def test() {
                     echo "📝 Erro: ${caso.getErrorDetails()}"
                     echo "📜 Stack Trace: \n${caso.getErrorStackTrace()}"
 
-                    failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n\n"
-                    echo failedTestsText
+                    failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
                 }
                 
                 echo failedTestsText
 
-                def buildLogPath = "log/show_${env.JOB_NAME}_#${env.BUILD_NAME}_test_log.txt"
-                sh 'mkdir -p log'
-                writeFile file: buildLogPath, text: failedTestsText
+                // def buildLogPath = "show_${env.JOB_NAME}_#${env.BUILD_NAME}_test_log.txt"
+                // writeFile file: buildLogPath, text: failedTestsText
             } else {
-                echo '✅ Nenhum teste falhou.'
+                echo 'Nenhum teste falhou.'
             }
                         } else {
-            echo '⚠️ Nenhum resultado de teste foi encontrado!'
+            echo 'Nenhum resultado de teste foi encontrado!'
         }
     } else {
         echo 'No test result found!'
