@@ -80,6 +80,7 @@ def test() {
             : "Total: ${total}\n- Passed: ${passed}"
         echo echoMessage
         echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
+        echo testResult
     } else {
         echo 'No test result found!'
     }
