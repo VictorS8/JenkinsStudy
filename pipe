@@ -6,6 +6,11 @@ pipeline {
         DOUBLE_TEXT = "Text do ${TEXT}"
     }
 
+    triggers {
+        // Verifica a branch 'main' a cada 2 minutos
+        pollSCM('H/2 * * * *')
+    }
+
     stages {
         stage('Begin') {
             steps {
@@ -80,7 +85,9 @@ def test() {
             : "Total: ${total}\n- Passed: ${passed}"
         echo echoMessage
         echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
-        echo testResult
+        echo "${testResult.getFailedTests()}"
+        echo "${testResult.TestResult.getFailedTests()}"
+
     } else {
         echo 'No test result found!'
     }
