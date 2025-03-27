@@ -81,6 +81,20 @@ def test() {
         echo echoMessage
         echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
 
+        def junitResult = junit(
+            keepProperties: true,
+            keepTestNames: true,
+            skipPublishingChecks: true,
+            stdioRetention: 'FAILED',
+            testResults: 'result.xml'
+        )
+
+        junitResult.getFailedTests().each {
+            echo "Failed test: ${it.fullName}"
+            echo "Error: ${it.errorDetails}"
+            echo "Stack Trace: ${it.errorStackTrace}"
+        }
+
         def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
         if (testAction != null) {
             // Acessa detalhes do resultado
