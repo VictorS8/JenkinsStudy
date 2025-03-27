@@ -69,9 +69,7 @@ def test() {
         echo 'Test result found!'
         def testResult = junit(
             testResults: testResultFile,
-            skipPublishingChecks: true,
-            skipOldReports: true
-            )
+            skipPublishingChecks: true)
         def total = testResult.totalCount
         def passed = testResult.passCount
         def failed = testResult.failCount
