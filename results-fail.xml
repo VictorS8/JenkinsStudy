@@ -1,0 +1,86 @@
+<testsuites name="All tests" tests="24" failures="10">
+    <testsuite name="PepBlastAutomatedUITests.BlockUserFeature" tests="1" failures="0">
+        <testcase classname="PepBlastAutomatedUITests.BlockUserFeature" name="testBlockUser" time="40.243" />
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.DeleteFeature" tests="1" failures="0">
+        <testcase classname="PepBlastAutomatedUITests.DeleteFeature" name="testDeleteSentPhoto" time="49.685" />
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.LikeRemixFeature" tests="1" failures="0">
+        <testcase classname="PepBlastAutomatedUITests.LikeRemixFeature" name="testSelectAMusicVideoInBrowserAndLikeIt" time="38.535" />
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.LoginFeature" tests="2" failures="0">
+        <testcase classname="PepBlastAutomatedUITests.LoginFeature" name="testLoginFails" time="26.514" />
+        <testcase classname="PepBlastAutomatedUITests.LoginFeature" name="testLoginSucceeds" time="34.641" />
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.MakeRemixFeature" tests="1" failures="1">
+        <testcase classname="PepBlastAutomatedUITests.MakeRemixFeature" name="testMakeMusicVideoOneClick">
+            <failure message="/Users/devictor/Documents/GitHub/pepblast_ios_ui_tests/PepBlastAutomatedUITests/Pages/MakeRemixPage.swift:104 - failed - Could not load Photos/Clips Screen" />
+        </testcase>
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.MakeSnapshotFeature" tests="1" failures="0">
+        <testcase classname="PepBlastAutomatedUITests.MakeSnapshotFeature" name="testSnapshotWithOneClick" time="40.742" />
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.SendPhotosFeature" tests="1" failures="1">
+        <testcase classname="PepBlastAutomatedUITests.SendPhotosFeature" name="testSendPhotoToMusicVideo">
+            <failure message="/Users/devictor/Documents/GitHub/pepblast_ios_ui_tests/PepBlastAutomatedUITests/Pages/SendPhotosPage.swift:15 - XCTAssertTrue failed - No home send your photo displayed" />
+        </testcase>
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.SignUpFeature" tests="2" failures="1">
+        <testcase classname="PepBlastAutomatedUITests.SignUpFeature" name="testSignUpFails" time="32.058" />
+        <testcase classname="PepBlastAutomatedUITests.SignUpFeature" name="testSignUpSuccess">
+            <failure message="/Users/devictor/Documents/GitHub/pepblast_ios_ui_tests/PepBlastAutomatedUITests/Tests/LoginTest.swift:52 - XCTAssertTrue failed" />
+        </testcase>
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.TabBarFeature" tests="1" failures="1">
+        <testcase classname="PepBlastAutomatedUITests.TabBarFeature" name="testTapInDifferentButtonsInTabBar">
+            <failure message="/Users/devictor/Documents/GitHub/pepblast_ios_ui_tests/PepBlastAutomatedUITests/Pages/TabBarPage.swift:42 - XCTAssertTrue failed - No notification title" />
+        </testcase>
+    </testsuite>
+    <testsuite name="PepBlastAutomatedUITests.VerificationFeature" tests="1" failures="1">
+        <testcase classname="PepBlastAutomatedUITests.VerificationFeature" name="testVerifyEachSubTabFilterOnSearchTab">
+            <failure message="/Users/devictor/Documents/GitHub/pepblast_ios_ui_tests/PepBlastAutomatedUITests/Tests/VerificationTest.swift:28 - XCTAssertTrue failed - Search Screen was not found" />
+        </testcase>
+    </testsuite>
+    <testsuite name="BlockUserFeature" tests="1" failures="0">
+        <testcase classname="BlockUserFeature" name="testBlockUser" time="40.243" />
+    </testsuite>
+    <testsuite name="DeleteFeature" tests="1" failures="0">
+        <testcase classname="DeleteFeature" name="testDeleteSentPhoto" time="49.685" />
+    </testsuite>
+    <testsuite name="LikeRemixFeature" tests="1" failures="0">
+        <testcase classname="LikeRemixFeature" name="testSelectAMusicVideoInBrowserAndLikeIt" time="38.535" />
+    </testsuite>
+    <testsuite name="LoginFeature" tests="2" failures="0">
+        <testcase classname="LoginFeature" name="testLoginFails" time="26.514" />
+        <testcase classname="LoginFeature" name="testLoginSucceeds" time="34.641" />
+    </testsuite>
+    <testsuite name="MakeRemixFeature" tests="1" failures="1">
+        <testcase classname="MakeRemixFeature" name="testMakeMusicVideoOneClick">
+            <failure message="Parallel test failed" />
+        </testcase>
+    </testsuite>
+    <testsuite name="MakeSnapshotFeature" tests="1" failures="0">
+        <testcase classname="MakeSnapshotFeature" name="testSnapshotWithOneClick" time="40.742" />
+    </testsuite>
+    <testsuite name="SendPhotosFeature" tests="1" failures="1">
+        <testcase classname="SendPhotosFeature" name="testSendPhotoToMusicVideo">
+            <failure message="Parallel test failed" />
+        </testcase>
+    </testsuite>
+    <testsuite name="SignUpFeature" tests="2" failures="1">
+        <testcase classname="SignUpFeature" name="testSignUpFails" time="32.058" />
+        <testcase classname="SignUpFeature" name="testSignUpSuccess">
+            <failure message="Parallel test failed" />
+        </testcase>
+    </testsuite>
+    <testsuite name="TabBarFeature" tests="1" failures="1">
+        <testcase classname="TabBarFeature" name="testTapInDifferentButtonsInTabBar">
+            <failure message="Parallel test failed" />
+        </testcase>
+    </testsuite>
+    <testsuite name="VerificationFeature" tests="1" failures="1">
+        <testcase classname="VerificationFeature" name="testVerifyEachSubTabFilterOnSearchTab">
+            <failure message="Parallel test failed" />
+        </testcase>
+    </testsuite>
+</testsuites>
