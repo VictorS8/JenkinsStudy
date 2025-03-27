@@ -86,7 +86,7 @@ def test() {
             keepTestNames: true,
             skipPublishingChecks: true,
             stdioRetention: 'FAILED',
-            testResults: 'result.xml'
+            testResults: 'results.xml'
         )
 
         junitResult.getFailedTests().each {
