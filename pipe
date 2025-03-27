@@ -80,7 +80,28 @@ def test() {
             : "Total: ${total}\n- Passed: ${passed}"
         echo echoMessage
         echo "Test Result: ${total} total\n- ${passed} passed\n- ${failed} failed"
-        echo "${testResult.TestResult.getFailedTests()}"
+
+        def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
+        if (testAction != null) {
+            // Acessa detalhes do resultado
+            def detalhes = testAction.getResult()
+            def casosDeTesteFalhos = detalhes.getFailedTests()  // Apenas testes com falha
+
+            if (casosDeTesteFalhos.size() > 0) {
+                echo "📛 Testes com Falha: ${casosDeTesteFalhos.size()}"
+
+                // Iterando sobre os testes que falharam
+                for (def caso in casosDeTesteFalhos) {
+                    echo "🚨 Falha no Teste: ${caso.getFullName()}"
+                    echo "📝 Erro: ${caso.getErrorDetails()}"
+                    echo "📜 Stack Trace: \n${caso.getErrorStackTrace()}"
+                }
+                            } else {
+                echo '✅ Nenhum teste falhou.'
+            }
+                        } else {
+            echo '⚠️ Nenhum resultado de teste foi encontrado!'
+        }
     } else {
         echo 'No test result found!'
     }
