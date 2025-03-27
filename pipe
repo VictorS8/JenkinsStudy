@@ -96,10 +96,7 @@ def test() {
                     echo "📝 Erro: ${caso.getErrorDetails()}"
                     echo "📜 Stack Trace: \n${caso.getErrorStackTrace()}"
 
-                    failedTestsText = failedTestsText + "Falha no Teste: ${caso.getFullName()}\n" 
-                    + "Erro: ${caso.getErrorDetails()}\n" 
-                    + "Stack Trace: \n${caso.getErrorStackTrace()}\n" 
-                    + "\n"
+                    failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n\n"
                     echo failedTestsText
                 }
                 
