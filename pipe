@@ -92,10 +92,6 @@ def test() {
                 echo failedTestsText
                 // Iterando sobre os testes que falharam
                 for (def caso in casosDeTesteFalhos) {
-                    echo "🚨 Falha no Teste: ${caso.getFullName()}"
-                    echo "📝 Erro: ${caso.getErrorDetails()}"
-                    echo "📜 Stack Trace: \n${caso.getErrorStackTrace()}"
-
                     failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
                 }
                 
@@ -103,8 +99,9 @@ def test() {
 
                 echo 'Salvando log de falhas...'
 
-                // def buildLogPath = "show_${env.JOB_NAME}_#${env.BUILD_NAME}_test_log.txt"
-                // writeFile file: buildLogPath, text: failedTestsText
+                def buildLogPath = "show_${env.JOB_NAME}_#${env.BUILD_NAME}_test_log.txt"
+                writeFile(file: buildLogPath, text: failedTestsText, encoding: 'UTF-8')
+                echo "Log de falhas salvo em ${buildLogPath}"
             } else {
                 echo 'Nenhum teste falhou.'
             }
