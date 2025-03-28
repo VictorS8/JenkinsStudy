@@ -87,22 +87,19 @@ def test() {
             def casosDeTesteFalhos = detalhes.getFailedTests()  // Apenas testes com falha
 
             if (casosDeTesteFalhos.size() > 0) {
-                echo "📛 Testes com Falha: ${casosDeTesteFalhos.size()}"
                 def failedTestsText = ''
-                echo failedTestsText
-                // Iterando sobre os testes que falharam
                 for (def caso in casosDeTesteFalhos) {
                     failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
                 }
-
                 testAction = null
+
                 echo failedTestsText
 
                 echo 'Salvando log de falhas...'
 
-                def buildLogPath = 'build_log.txt'
-                writeFile(file: buildLogPath, text: "Log de falhas:\n${failedTestsText}")
-                echo "Log de falhas salvo em ${buildLogPath}"
+                def testResultReportPath = "${env.JOB_NAME}_#${env.BUILD_NUMBER}_test_result_report.txt"
+                writeFile(file: testResultReportPath, text: "Log de falhas:\n${failedTestsText}")
+                echo "Log de falhas salvo em ${testResultReportPath}"
             } else {
                 echo 'Nenhum teste falhou.'
             }
