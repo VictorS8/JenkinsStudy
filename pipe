@@ -90,7 +90,7 @@ def test() {
             if (casosDeTesteFalhos.size() > 0) {
                 def failedTestsText = ''
                 for (def caso in casosDeTesteFalhos) {
-                    failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
+                    failedTestsText = "${failedTestsText}- Falha no Teste:\n${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
                 }
                 testAction = null
 
