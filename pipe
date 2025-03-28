@@ -22,7 +22,10 @@ pipeline {
                     textNow = "Agora é ${env.TEXT} + ${env.DOUBLE_TEXT}"
                     echo textNow
 
-                    sh "rm -rf ${REPORTS_FOLDER}/*"
+                    sh ''''
+                        rm -rf ${REPORTS_FOLDER}/*
+                        sh "mkdir -p ${REPORTS_FOLDER}
+                    '''
                 }
             }
         }
@@ -53,9 +56,6 @@ pipeline {
                     artifacts: 'results.xml',
                     onlyIfSuccessful: true
                 )
-                script {
-                    sh "mkdir -p ${REPORTS_FOLDER}"
-                }
             }
         }
     }
