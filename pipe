@@ -32,13 +32,13 @@ pipeline {
                 stage('Install') {
                     steps {
                         echo 'Installing'
-                        // sleep(time: 2, unit: 'SECONDS')
+                    // sleep(time: 2, unit: 'SECONDS')
                     }
                 }
                 stage('Test') {
                     steps {
                         echo 'Testing'
-                        // sleep(time: 2, unit: 'SECONDS')
+                    // sleep(time: 2, unit: 'SECONDS')
                     }
                 }
             }
@@ -87,33 +87,36 @@ def test() {
             : "All ${passed} tests passed!"
         echo "${echoMessage}\n"
 
-        def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
-        if (testAction != null) {
-            // Acessa detalhes do resultado
-            def detalhes = testAction.getResult()
-            def casosDeTesteFalhos = detalhes.getFailedTests()  // Apenas testes com falha
+        if (failed > 0) {
+            def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
+            if (testAction != null) {
+                // def detalhes = testAction.getResult()
+                // def casosDeTesteFalhos = detalhes.getFailedTests()
 
-            if (casosDeTesteFalhos.size() > 0) {
-                def failedTestsText = ''
-                for (def caso in casosDeTesteFalhos) {
-                    failedTestsText = "${failedTestsText}- Falha no Teste:\n${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
+                def failedTests = testAction.getResult().getFailedTests()
+
+                def failedTestsReportText = 'Start of Tests Report\n'
+                for (def test in failedTests) {
+                    failedTestsReportText = "${failedTestsReportText}- Falha no Teste:\n${test.getFullName()}\nErro: ${test.getErrorDetails()}\nStack Trace: \n${test.getErrorStackTrace()}\n"
                 }
                 testAction = null
 
-                echo failedTestsText
+                failedTestsReportText = "${failedTestsReportText}End of Tests report"
+
+                echo failedTestsReportText
 
                 echo 'Salvando log de falhas...'
 
                 def testResultReportPath = "${env.JOB_NAME}_#${env.BUILD_NUMBER}_test_result_report.txt"
-                writeFile(file: testResultReportPath, text: "Log de falhas:\n${failedTestsText}")
+                writeFile(file: testResultReportPath, text: "Log de falhas:\n${failedTestsReportText}")
                 echo "Log de falhas salvo em ${testResultReportPath}"
             } else {
-                echo 'Nenhum teste falhou.'
+                echo 'No tests result found! on currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction) method'
             }
         } else {
-            echo 'Nenhum resultado de teste foi encontrado!'
+            echo 'All tests passed!'
         }
     } else {
-        echo 'No test result found!'
+        echo 'No test result found! on junit standard from Jenkins Pipeline'
     }
 }
