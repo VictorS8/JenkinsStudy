@@ -70,7 +70,7 @@ pipeline {
 }
 
 def test() {
-    def testResultFile = 'results-fail.xml'
+    def testResultFile = 'results-totalfail.xml'
     if (fileExists(testResultFile)) {
         echo 'Test result found!'
         def testResult = junit(
