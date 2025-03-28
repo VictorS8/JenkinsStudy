@@ -85,7 +85,7 @@ def test() {
         def echoMessage = (failed > 0) ?
             "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}"
             : "All ${passed} tests passed!"
-        echo echoMessage
+        echo "${echoMessage}\n"
 
         def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
         if (testAction != null) {
