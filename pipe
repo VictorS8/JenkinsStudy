@@ -97,6 +97,7 @@ def junitTest() {
         def total = testResult.totalCount
         def passed = testResult.passCount
         def failed = testResult.failCount
+        def skipped = testResult.skipCount
 
         def echoMessage = "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}"
         echo "${echoMessage}\n"
