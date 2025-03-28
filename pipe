@@ -87,13 +87,12 @@ pipeline {
 }
 
 def junitTest() {
-    def testResultFile = 'results.xml'
+    def testResultFile = 'results-fail.xml'
     if (fileExists(testResultFile)) {
         echo 'Test result found!'
         def testResult = junit(
             testResults: testResultFile,
             skipPublishingChecks: true,
-            skipOldReports: true,
         )
         def total = testResult.totalCount
         def passed = testResult.passCount
