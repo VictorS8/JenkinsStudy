@@ -4,6 +4,7 @@ pipeline {
     environment {
         TEXT = 'TEXT'
         DOUBLE_TEXT = "Text do ${TEXT}"
+        REPORTS_FOLDER = 'reports'
     }
 
     stages {
@@ -20,6 +21,8 @@ pipeline {
                     def textNow = ''
                     textNow = "Agora é ${env.TEXT} + ${env.DOUBLE_TEXT}"
                     echo textNow
+
+                    sh "rmf -rf ${REPORTS_FOLDER}/*"
                 }
             }
         }
@@ -50,6 +53,9 @@ pipeline {
                     artifacts: 'results.xml',
                     onlyIfSuccessful: true
                 )
+                script {
+                    sh "mkdir -p ${REPORTS_FOLDER}"
+                }
             }
         }
     }
@@ -113,7 +119,8 @@ def test() {
 
                 echo 'Salvando log de falhas...'
 
-                def testResultReportPath = "${env.JOB_NAME}_#${env.BUILD_NUMBER}_test_result_report.txt"
+                def testResultReportFile = "${env.JOB_NAME}_#${env.BUILD_NUMBER}_test_result_report.txt"
+                def testResultReportPath = "${REPORTS_FOLDER}/${testResultReportFile}"
                 writeFile(file: testResultReportPath, text: failedTestsReportText)
                 echo "Log de falhas salvo em ${testResultReportPath}"
             } else {
