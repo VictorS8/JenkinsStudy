@@ -87,7 +87,7 @@ pipeline {
 }
 
 def junitTest() {
-    def testResultFile = 'results-fail.xml'
+    def testResultFile = 'results.xml'
     if (fileExists(testResultFile)) {
         echo 'Test result found!'
         def testResult = junit(
@@ -113,7 +113,7 @@ def failedTestReports() {
         def failedTests = testAction.getResult().getFailedTests()
 
         if (failedTests.size() > 0) {
-            def failedTestsReportText = '*Start of Tests Report*\n'
+            def failedTestsReportText = '*Start of Tests Report*\n\n'
             for (def test in failedTests) {
                 failedTestsReportText = "${failedTestsReportText}> Falha no Teste:\n${test.getFullName()}\nErro: ${test.getErrorDetails()}\nStack Trace: \n${test.getErrorStackTrace()}\n"
             }
