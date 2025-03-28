@@ -23,7 +23,7 @@ pipeline {
                     echo textNow
 
                     sh ''''
-                        rm -rf ${REPORTS_FOLDER}/*
+                        rm -rf ${REPORTS_FOLDER}
                         sh "mkdir -p ${REPORTS_FOLDER}
                     '''
                 }
