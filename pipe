@@ -92,8 +92,6 @@ def test() {
         def testResult = junit(
             testResults: testResultFile,
             skipPublishingChecks: true,
-            skipMarkingBuildUnstable: true,
-            skipOldReports: true,
         )
         def total = testResult.totalCount
         def passed = testResult.passCount
