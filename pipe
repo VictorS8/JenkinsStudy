@@ -94,14 +94,14 @@ def test() {
                 for (def caso in casosDeTesteFalhos) {
                     failedTestsText = "${failedTestsText}Falha no Teste: ${caso.getFullName()}\nErro: ${caso.getErrorDetails()}\nStack Trace: \n${caso.getErrorStackTrace()}\n"
                 }
-                
+
+                testAction = null
                 echo failedTestsText
 
                 echo 'Salvando log de falhas...'
 
                 def buildLogPath = 'build_log.txt'
                 writeFile(file: buildLogPath, text: "Log de falhas:\n${failedTestsText}")
-                testAction = null
                 echo "Log de falhas salvo em ${buildLogPath}"
             } else {
                 echo 'Nenhum teste falhou.'
