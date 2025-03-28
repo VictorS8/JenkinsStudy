@@ -22,7 +22,7 @@ pipeline {
                     textNow = "Agora é ${env.TEXT} + ${env.DOUBLE_TEXT}"
                     echo textNow
 
-                    sh "rmf -rf ${REPORTS_FOLDER}/*"
+                    sh "rm -rf ${REPORTS_FOLDER}/*"
                 }
             }
         }
