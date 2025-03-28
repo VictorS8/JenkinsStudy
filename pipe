@@ -63,12 +63,13 @@ pipeline {
     post {
         success {
             script {
-                test()
+                junitTest()
                 echo 'Build is successful!'
             }
         }
         unstable {
             script {
+                failedTestReports()
                 echo 'Build is unstable!'
             }
         }
@@ -85,13 +86,14 @@ pipeline {
     }
 }
 
-def test() {
-    def testResultFile = 'results-fail.xml'
+def junitTest() {
+    def testResultFile = 'results.xml'
     if (fileExists(testResultFile)) {
         echo 'Test result found!'
         def testResult = junit(
             testResults: testResultFile,
             skipPublishingChecks: true,
+            skipOldReports: true,
         )
         def total = testResult.totalCount
         def passed = testResult.passCount
@@ -100,34 +102,38 @@ def test() {
         def echoMessage = "Total: ${total}\n- Passed: ${passed}\n- Failed: ${failed}"
         echo "${echoMessage}\n"
 
-        if (failed > 0) {
-            def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
-            if (testAction != null) {
-                def failedTests = testAction.getResult().getFailedTests()
-
-                def failedTestsReportText = '*Start of Tests Report*\n'
-                for (def test in failedTests) {
-                    failedTestsReportText = "${failedTestsReportText}> Falha no Teste:\n${test.getFullName()}\nErro: ${test.getErrorDetails()}\nStack Trace: \n${test.getErrorStackTrace()}\n"
-                }
-                testAction = null
-
-                failedTestsReportText = "${failedTestsReportText}*End of Tests report*"
-
-                echo failedTestsReportText
-
-                echo 'Salvando log de falhas...'
-
-                def testResultReportFile = "${env.JOB_NAME}_#${env.BUILD_NUMBER}_test_result_report.txt"
-                def testResultReportPath = "${REPORTS_FOLDER}/${testResultReportFile}"
-                writeFile(file: testResultReportPath, text: failedTestsReportText)
-                echo "Log de falhas salvo em ${testResultReportPath}"
-            } else {
-                echo 'No tests result found! on currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction) method'
-            }
-        } else {
-            echo 'All tests passed!'
-        }
+        echo 'All tests passed!'
     } else {
         echo 'No test result found! on junit standard from Jenkins Pipeline'
+    }
+}
+
+def failedTestReports() {
+    def testAction = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
+    if (testAction != null) {
+        def failedTests = testAction.getResult().getFailedTests()
+
+        if (failedTests.size() > 0) {
+            def failedTestsReportText = '*Start of Tests Report*\n'
+            for (def test in failedTests) {
+                failedTestsReportText = "${failedTestsReportText}> Falha no Teste:\n${test.getFullName()}\nErro: ${test.getErrorDetails()}\nStack Trace: \n${test.getErrorStackTrace()}\n"
+            }
+            testAction = null
+
+            failedTestsReportText = "${failedTestsReportText}*End of Tests report*"
+
+            echo failedTestsReportText
+
+            echo 'Salvando log de falhas...'
+
+            def testResultReportFile = "${env.JOB_NAME}_#${env.BUILD_NUMBER}_test_result_report.txt"
+            def testResultReportPath = "${REPORTS_FOLDER}/${testResultReportFile}"
+            writeFile(file: testResultReportPath, text: failedTestsReportText)
+            echo "Log de falhas salvo em ${testResultReportPath}"
+        } else {
+            echo 'No failed tests found!'
+        }
+    } else {
+        echo 'No tests result found! on currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction) method'
     }
 }
