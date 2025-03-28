@@ -24,7 +24,7 @@ pipeline {
 
                     sh ''''
                         rm -rf ${REPORTS_FOLDER}
-                        sh "mkdir -p ${REPORTS_FOLDER}
+                        mkdir -p ${REPORTS_FOLDER}
                     '''
                 }
             }
