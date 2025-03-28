@@ -58,12 +58,22 @@ pipeline {
         success {
             script {
                 test()
+                echo 'Build is successful!'
             }
         }
         unstable {
             script {
-                def unstabilityMessage = 'Build is unstable'
-                echo unstabilityMessage
+                echo 'Build is unstable!'
+            }
+        }
+        failure {
+            script {
+                echo 'Build failed!'
+            }
+        }
+        always {
+            script {
+                echo 'Build is finished!'
             }
         }
     }
@@ -76,7 +86,6 @@ def test() {
         def testResult = junit(
             testResults: testResultFile,
             skipPublishingChecks: true,
-            // skipMarkingBuildUnstable: true,
             )
         def total = testResult.totalCount
         def passed = testResult.passCount
