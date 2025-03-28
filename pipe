@@ -87,7 +87,6 @@ def test() {
             testResults: testResultFile,
             skipPublishingChecks: true,
             skipMarkingBuildUnstable: true,
-            allowEmptyResults: true,
             skipOldReports: true,
         )
         def total = testResult.totalCount
