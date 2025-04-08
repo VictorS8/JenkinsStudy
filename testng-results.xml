@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="33" ignored="36" total="104" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="16690471" started-at="2025-04-08T03:34:17Z" finished-at="2025-04-08T08:12:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:BlockUserTest.BlockUserTest@65e2dbf3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSongTest.ChangeSongTest@7791a895]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeTemplateTest.ChangeTemplateTest@5f9d02cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:LikeMusicVideoTest.LikeMusicVideoTest@63753b6d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:LoginTest.LoginTest@6536e911]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MusicVideoTabsTest.MusicVideoTabsTest@5a8e6209]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TabBarTest.TabBarTest@3e9b1010]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="16690471" started-at="2025-04-08T03:34:17Z" finished-at="2025-04-08T08:12:28Z">
+      <class name="FeedMusicVideoTest.FeedMusicVideoTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="setUpClass" is-config="true" duration-ms="14" started-at="2025-04-08T02:25:19Z" finished-at="2025-04-08T02:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="203216" started-at="2025-04-08T02:25:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:28:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Like a music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapLikeFeedMusicVideo(FeedMusicVideoPage.java:40)
+	at FeedMusicVideoTest.FeedMusicVideoTest.likeRemix(FeedMusicVideoTest.java:46)
+	at ✽.like the music video(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T02:25:19Z" finished-at="2025-04-08T02:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="172928" started-at="2025-04-08T02:28:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Comment section of a music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapCommentFeedMusicVideo(FeedMusicVideoPage.java:61)
+	at FeedMusicVideoTest.FeedMusicVideoTest.tapCommentIcon(FeedMusicVideoTest.java:58)
+	at ✽.tap in comment icon(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="225815" started-at="2025-04-08T02:31:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Share icon of a music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapShareFeedMusicVideo(FeedMusicVideoPage.java:71)
+	at FeedMusicVideoTest.FeedMusicVideoTest.tapShareIcon(FeedMusicVideoTest.java:70)
+	at ✽.tap in share icon(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="156101" started-at="2025-04-08T02:35:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify each options in a music video showed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.checkScreenLoaded(FeedMusicVideoPage.java:89)
+	at FeedMusicVideoTest.FeedMusicVideoTest.screenIsLoaded(FeedMusicVideoTest.java:82)
+	at ✽.screen is loaded(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="237731" started-at="2025-04-08T02:37:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tapping in button more "..." in your own music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.moreOptionTapOnFeed(FeedMusicVideoPage.java:158)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOwnMusicVideo(FeedMusicVideoTest.java:106)
+	at ✽.see own music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="292972" started-at="2025-04-08T02:41:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tapping in button more "..." in other music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="211910" started-at="2025-04-08T02:46:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:50:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sending a video and a photo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapSendPhotoButton(FeedMusicVideoPage.java:220)
+	at FeedMusicVideoTest.FeedMusicVideoTest.tapSendPhotoButton(FeedMusicVideoTest.java:136)
+	at ✽.tap in send photo button(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:41)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="334995" started-at="2025-04-08T02:50:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Reporting for spam on feed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:46)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="292646" started-at="2025-04-08T02:55:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:00:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Reporting for inappropriate on feed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="runScenario" duration-ms="206570" started-at="2025-04-08T03:00:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a snapshot on feed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each action of a music video in on Feed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.checkScreenLoaded(FeedMusicVideoPage.java:89)
+	at Pages.FeedMusicVideoPage.goToLoginFromSearchTab(FeedMusicVideoPage.java:310)
+	at Pages.FeedMusicVideoPage.doLogoutFromSearchTab(FeedMusicVideoPage.java:317)
+	at FeedMusicVideoTest.FeedMusicVideoTest.iLoggedOnSnapshotAccount(FeedMusicVideoTest.java:169)
+	at ✽.i logged on snapshot account(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:56)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="restartApp" is-config="true" duration-ms="907" started-at="2025-04-08T03:04:14Z" finished-at="2025-04-08T03:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:FeedMusicVideoTest.FeedMusicVideoTest@6b09bb57]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T03:04:15Z" finished-at="2025-04-08T03:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- FeedMusicVideoTest.FeedMusicVideoTest -->
+      <class name="ChangeSongTest.ChangeSongTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ChangeSongTest.ChangeSongTest@7791a895]" name="setUpClass" is-config="true" duration-ms="9" started-at="2025-04-08T04:38:46Z" finished-at="2025-04-08T04:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:ChangeSongTest.ChangeSongTest@7791a895]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T04:38:46Z" finished-at="2025-04-08T04:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSongTest.ChangeSongTest@7791a895]" name="runScenario" duration-ms="160885" started-at="2025-04-08T04:38:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:41:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pepblast song"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change song of a music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:ChangeSongTest.ChangeSongTest@7791a895]" name="restartApp" is-config="true" duration-ms="807" started-at="2025-04-08T04:41:26Z" finished-at="2025-04-08T04:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ChangeSongTest.ChangeSongTest@7791a895]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2025-04-08T04:41:27Z" finished-at="2025-04-08T04:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ChangeSongTest.ChangeSongTest -->
+      <class name="MakeSnapshotTest.MakeSnapshotTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="setUpClass" is-config="true" duration-ms="12" started-at="2025-04-08T01:32:25Z" finished-at="2025-04-08T01:32:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="runScenario" duration-ms="300100" started-at="2025-04-08T01:32:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:37:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make Snapshot with 1-click"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Snapshot Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T01:32:25Z" finished-at="2025-04-08T01:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="runScenario" duration-ms="251028" started-at="2025-04-08T01:37:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change custom background"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Snapshot Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.BasePage.tapListOptionsSelectedByText(BasePage.java:595)
+	at Pages.MakeSnapshotPage.searchBackgroundFeatured(MakeSnapshotPage.java:150)
+	at MakeSnapshotTest.MakeSnapshotTest.changeBackgroundCorrectly(MakeSnapshotTest.java:73)
+	at ✽.change background correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeSnapshotTest/MakeSnapshotTest.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="runScenario" duration-ms="320355" started-at="2025-04-08T01:41:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a step by step snapshot with Do Not Publish"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Snapshot Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="restartApp" is-config="true" duration-ms="921" started-at="2025-04-08T01:46:57Z" finished-at="2025-04-08T01:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MakeSnapshotTest.MakeSnapshotTest@3108bc]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T01:46:58Z" finished-at="2025-04-08T01:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MakeSnapshotTest.MakeSnapshotTest -->
+      <class name="TabBarTest.TabBarTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TabBarTest.TabBarTest@3e9b1010]" name="setUpClass" is-config="true" duration-ms="12" started-at="2025-04-08T03:54:47Z" finished-at="2025-04-08T03:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:TabBarTest.TabBarTest@3e9b1010]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T03:54:47Z" finished-at="2025-04-08T03:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TabBarTest.TabBarTest@3e9b1010]" name="runScenario" duration-ms="299781" started-at="2025-04-08T03:54:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tap in different buttons in tab bar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tapping different buttons in Tab bar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:TabBarTest.TabBarTest@3e9b1010]" name="restartApp" is-config="true" duration-ms="847" started-at="2025-04-08T03:59:46Z" finished-at="2025-04-08T03:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TabBarTest.TabBarTest@3e9b1010]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T03:59:47Z" finished-at="2025-04-08T03:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TabBarTest.TabBarTest -->
+      <class name="VerificationTest.VerificationTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="setUpClass" is-config="true" duration-ms="17" started-at="2025-04-08T03:14:15Z" finished-at="2025-04-08T03:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="runScenario" duration-ms="250831" started-at="2025-04-08T03:14:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify URL domain"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T03:14:15Z" finished-at="2025-04-08T03:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="runScenario" duration-ms="172922" started-at="2025-04-08T03:18:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:21:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify difference between logged and not logged watch lists"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.VerificationPage.countWatchLists(VerificationPage.java:78)
+	at Pages.VerificationPage.checkLoggedOutFilters(VerificationPage.java:120)
+	at VerificationTest.VerificationTest.seeWatchListsWithoutBeingLogged(VerificationTest.java:53)
+	at ✽.see watch lists without being logged(classpath:VerificationTest/VerificationTest.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="runScenario" duration-ms="182557" started-at="2025-04-08T03:21:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify each sub tab filter on search tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.VerificationPage.verifyEachSubTab(VerificationPage.java:189)
+	at VerificationTest.VerificationTest.verifyEachSubTab(VerificationTest.java:78)
+	at ✽.verify each sub tab(classpath:VerificationTest/VerificationTest.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="runScenario" duration-ms="168553" started-at="2025-04-08T03:24:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify cursor on search template"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verification Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="restartApp" is-config="true" duration-ms="876" started-at="2025-04-08T03:27:09Z" finished-at="2025-04-08T03:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:VerificationTest.VerificationTest@520a3426]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T03:27:10Z" finished-at="2025-04-08T03:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- VerificationTest.VerificationTest -->
+      <class name="LikeMusicVideoTest.LikeMusicVideoTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:LikeMusicVideoTest.LikeMusicVideoTest@63753b6d]" name="setUpClass" is-config="true" duration-ms="8" started-at="2025-04-08T02:21:55Z" finished-at="2025-04-08T02:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:LikeMusicVideoTest.LikeMusicVideoTest@63753b6d]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T02:21:55Z" finished-at="2025-04-08T02:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:LikeMusicVideoTest.LikeMusicVideoTest@63753b6d]" name="runScenario" duration-ms="203233" started-at="2025-04-08T02:21:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select a music video in browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Liking a music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:LikeMusicVideoTest.LikeMusicVideoTest@63753b6d]" name="restartApp" is-config="true" duration-ms="883" started-at="2025-04-08T02:25:18Z" finished-at="2025-04-08T02:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:LikeMusicVideoTest.LikeMusicVideoTest@63753b6d]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T02:25:19Z" finished-at="2025-04-08T02:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- LikeMusicVideoTest.LikeMusicVideoTest -->
+      <class name="SignUpTest.SignUpTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="setUpClass" is-config="true" duration-ms="10" started-at="2025-04-08T04:41:27Z" finished-at="2025-04-08T04:41:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="navigateTo" is-config="true" duration-ms="1" started-at="2025-04-08T04:41:27Z" finished-at="2025-04-08T04:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="runScenario" duration-ms="175888" started-at="2025-04-08T04:41:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign up fails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the sign up page work?"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="runScenario" duration-ms="212426" started-at="2025-04-08T04:44:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign up success"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the sign up page work?"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="runScenario" duration-ms="210524" started-at="2025-04-08T04:47:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign up, make music video and see lists on browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the sign up page work?"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.SignUpPage.signUp(SignUpPage.java:126)
+	at SignUpTest.SignUpTest.signUpCorrectly(SignUpTest.java:71)
+	at ✽.sign up correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SignUpTest/SignUpTest.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="runScenario" duration-ms="161665" started-at="2025-04-08T04:51:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign up, make music video and see creation date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the sign up page work?"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.SignUpPage.signUp(SignUpPage.java:126)
+	at SignUpTest.SignUpTest.signUpCorrectly(SignUpTest.java:71)
+	at ✽.sign up correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SignUpTest/SignUpTest.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="restartApp" is-config="true" duration-ms="812" started-at="2025-04-08T04:54:08Z" finished-at="2025-04-08T04:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:SignUpTest.SignUpTest@6325a3ee]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T04:54:09Z" finished-at="2025-04-08T04:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SignUpTest.SignUpTest -->
+      <class name="ChangeSettingsTest.ChangeSettingsTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="setUpClass" is-config="true" duration-ms="8" started-at="2025-04-08T04:10:21Z" finished-at="2025-04-08T04:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="runScenario" duration-ms="202359" started-at="2025-04-08T04:10:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:13:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change configurations about the account"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T04:10:21Z" finished-at="2025-04-08T04:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="runScenario" duration-ms="182938" started-at="2025-04-08T04:13:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change configurations about the account"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="runScenario" duration-ms="181943" started-at="2025-04-08T04:16:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot password fails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change configurations about the account"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="runScenario" duration-ms="232666" started-at="2025-04-08T04:19:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot password success"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change configurations about the account"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="restartApp" is-config="true" duration-ms="848" started-at="2025-04-08T04:23:41Z" finished-at="2025-04-08T04:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ChangeSettingsTest.ChangeSettingsTest@731a74c]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2025-04-08T04:23:42Z" finished-at="2025-04-08T04:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ChangeSettingsTest.ChangeSettingsTest -->
+      <class name="DeleteTest.DeleteTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="setUpClass" is-config="true" duration-ms="8" started-at="2025-04-08T04:54:09Z" finished-at="2025-04-08T04:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="navigateTo" is-config="true" duration-ms="1" started-at="2025-04-08T04:54:09Z" finished-at="2025-04-08T04:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="runScenario" duration-ms="176570" started-at="2025-04-08T04:54:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sent Photos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="runScenario" duration-ms="212335" started-at="2025-04-08T04:57:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T05:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a post on Feed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.DeletePage.deleteSnapshotOnFeed(DeletePage.java:94)
+	at Pages.DeletePage.deletePost(DeletePage.java:68)
+	at DeleteTest.DeleteTest.deleteAPost(DeleteTest.java:57)
+	at ✽.delete a post(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/DeleteTest/DeleteTest.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="restartApp" is-config="true" duration-ms="868" started-at="2025-04-08T05:00:37Z" finished-at="2025-04-08T05:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:DeleteTest.DeleteTest@67b92f0a]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T05:00:38Z" finished-at="2025-04-08T05:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- DeleteTest.DeleteTest -->
+      <class name="CommentTest.CommentTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="setUpClass" is-config="true" duration-ms="9" started-at="2025-04-08T04:23:42Z" finished-at="2025-04-08T04:23:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="runScenario" duration-ms="221653" started-at="2025-04-08T04:23:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select a music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Comment in a music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T04:23:42Z" finished-at="2025-04-08T04:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="runScenario" duration-ms="217631" started-at="2025-04-08T04:27:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:31:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a comment without account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Comment in a music video"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.logOut(MakeMusicVideoPage.java:241)
+	at CommentTest.CommentTest.loggedOutFromAccount(CommentTest.java:58)
+	at ✽.i logged out from account(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/CommentTest/CommentTest.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="runScenario" duration-ms="252111" started-at="2025-04-08T04:31:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a comment and edit and delete with swipe"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Comment in a music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="runScenario" duration-ms="211631" started-at="2025-04-08T04:35:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a comment and edit and delete with long press"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Comment in a music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="restartApp" is-config="true" duration-ms="897" started-at="2025-04-08T04:38:45Z" finished-at="2025-04-08T04:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CommentTest.CommentTest@1f28c152]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T04:38:46Z" finished-at="2025-04-08T04:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CommentTest.CommentTest -->
+      <class name="PlayerTest.PlayerTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="setUpClass" is-config="true" duration-ms="13" started-at="2025-04-08T03:27:10Z" finished-at="2025-04-08T03:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="runScenario" duration-ms="257031" started-at="2025-04-08T03:27:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Watching a music video in portrait and landscape mode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify player cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T03:27:10Z" finished-at="2025-04-08T03:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="runScenario" duration-ms="376401" started-at="2025-04-08T03:31:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Swiping fast between music videos on home"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify player cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="runScenario" duration-ms="820206" started-at="2025-04-08T03:37:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Spending to much time on a music video on home"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify player cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="runScenario" duration-ms="201628" started-at="2025-04-08T03:51:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Seeing a music video and pausing to verify"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify player cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="restartApp" is-config="true" duration-ms="893" started-at="2025-04-08T03:54:46Z" finished-at="2025-04-08T03:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:PlayerTest.PlayerTest@18eed359]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T03:54:47Z" finished-at="2025-04-08T03:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- PlayerTest.PlayerTest -->
+      <class name="LoginTest.LoginTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:LoginTest.LoginTest@6536e911]" name="setUpClass" is-config="true" duration-ms="23" started-at="2025-04-08T03:04:15Z" finished-at="2025-04-08T03:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:LoginTest.LoginTest@6536e911]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T03:04:15Z" finished-at="2025-04-08T03:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:LoginTest.LoginTest@6536e911]" name="runScenario" duration-ms="201728" started-at="2025-04-08T03:04:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login fails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the login page work?"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:LoginTest.LoginTest@6536e911]" name="runScenario" duration-ms="196887" started-at="2025-04-08T03:07:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login succeeds"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the login page work?"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:LoginTest.LoginTest@6536e911]" name="runScenario" duration-ms="200084" started-at="2025-04-08T03:10:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T03:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login on News tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Does the login page work?"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:LoginTest.LoginTest@6536e911]" name="restartApp" is-config="true" duration-ms="884" started-at="2025-04-08T03:14:14Z" finished-at="2025-04-08T03:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:LoginTest.LoginTest@6536e911]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T03:14:15Z" finished-at="2025-04-08T03:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- LoginTest.LoginTest -->
+      <class name="SendPhotosTest.SendPhotosTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="setUpClass" is-config="true" duration-ms="8" started-at="2025-04-08T05:06:22Z" finished-at="2025-04-08T05:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T05:06:22Z" finished-at="2025-04-08T05:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="runScenario" duration-ms="168165" started-at="2025-04-08T05:06:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T05:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send photo to music video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Send Photos Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="runScenario" duration-ms="196545" started-at="2025-04-08T05:09:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T05:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send photo to a music video on profile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Send Photos Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="restartApp" is-config="true" duration-ms="900" started-at="2025-04-08T05:12:27Z" finished-at="2025-04-08T05:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:SendPhotosTest.SendPhotosTest@61f8bee4]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T05:12:28Z" finished-at="2025-04-08T05:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SendPhotosTest.SendPhotosTest -->
+      <class name="ChangeTemplateTest.ChangeTemplateTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ChangeTemplateTest.ChangeTemplateTest@5f9d02cb]" name="setUpClass" is-config="true" duration-ms="9" started-at="2025-04-08T02:18:16Z" finished-at="2025-04-08T02:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:ChangeTemplateTest.ChangeTemplateTest@5f9d02cb]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T02:18:16Z" finished-at="2025-04-08T02:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ChangeTemplateTest.ChangeTemplateTest@5f9d02cb]" name="runScenario" duration-ms="218577" started-at="2025-04-08T02:18:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change template"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change template of a music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:ChangeTemplateTest.ChangeTemplateTest@5f9d02cb]" name="restartApp" is-config="true" duration-ms="910" started-at="2025-04-08T02:21:54Z" finished-at="2025-04-08T02:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ChangeTemplateTest.ChangeTemplateTest@5f9d02cb]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2025-04-08T02:21:55Z" finished-at="2025-04-08T02:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ChangeTemplateTest.ChangeTemplateTest -->
+      <class name="MakeMusicVideoTest.MakeMusicVideoTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="setUpClass" is-config="true" duration-ms="14" started-at="2025-04-08T01:46:58Z" finished-at="2025-04-08T01:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T01:46:58Z" finished-at="2025-04-08T01:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="260061" started-at="2025-04-08T01:46:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make music video 1 click"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="231982" started-at="2025-04-08T01:51:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make music video Step-by-step with all information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="205448" started-at="2025-04-08T01:55:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:58:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make music video without account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.logOut(MakeMusicVideoPage.java:241)
+	at MakeMusicVideoTest.MakeMusicVideoTest.logOutFromAccount(MakeMusicVideoTest.java:87)
+	at ✽.i logged out from account(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:23)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="252796" started-at="2025-04-08T01:58:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:02:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make Music video without account and make a new account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="215725" started-at="2025-04-08T02:02:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make Music video information reset for each user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="249875" started-at="2025-04-08T02:06:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make Music video with only videos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at MakeMusicVideoTest.MakeMusicVideoTest.fillAllInformationNeeded(MakeMusicVideoTest.java:140)
+	at ✽.fill all information needed(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="245476" started-at="2025-04-08T02:10:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make Music video on totally social mode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="runScenario" duration-ms="215676" started-at="2025-04-08T02:14:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T02:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make music video with 1 click, change song and add photo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Music Video Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:54)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="restartApp" is-config="true" duration-ms="845" started-at="2025-04-08T02:18:15Z" finished-at="2025-04-08T02:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MakeMusicVideoTest.MakeMusicVideoTest@370736d9]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T02:18:16Z" finished-at="2025-04-08T02:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MakeMusicVideoTest.MakeMusicVideoTest -->
+      <class name="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest">
+        <test-method status="PASS" signature="setUpAppium()[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="setUpAppium" is-config="true" duration-ms="5889" started-at="2025-04-08T00:34:11Z" finished-at="2025-04-08T00:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAppium -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="setUpClass" is-config="true" duration-ms="292" started-at="2025-04-08T00:34:17Z" finished-at="2025-04-08T00:34:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T00:34:17Z" finished-at="2025-04-08T00:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="241432" started-at="2025-04-08T00:34:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T00:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["After make a music video and in the Music Video Details Screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkShowMessages(MakeMusicVideoDetailsOptionsPage.java:231)
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkSecondDetails(MakeMusicVideoDetailsOptionsPage.java:287)
+	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachRemixDetailsOption(MakeMusicVideoDetailsOptionsTest.java:57)
+	at ✽.verify each options(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="230707" started-at="2025-04-08T00:38:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T00:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Seeing each tooltip info about each option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkSameTooltipInfo(MakeMusicVideoDetailsOptionsPage.java:341)
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkTooltipGroup(MakeMusicVideoDetailsOptionsPage.java:366)
+	at Pages.MakeMusicVideoDetailsOptionsPage.tooltipFirstGroup(MakeMusicVideoDetailsOptionsPage.java:371)
+	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachTooltipInfoOfEachOption(MakeMusicVideoDetailsOptionsTest.java:66)
+	at ✽.verify each tooltip info of each option(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="268282" started-at="2025-04-08T00:42:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T00:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Try to change song in info tooltip and then "use" button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="221175" started-at="2025-04-08T00:46:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T00:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Changes when Totally Social mode is active"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="222073" started-at="2025-04-08T00:50:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T00:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Changes on startag and see if persists"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="237196" started-at="2025-04-08T00:54:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T00:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Try to make a music video with blank title on details screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="234477" started-at="2025-04-08T00:57:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Try to make a music video with blank startag on details screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="225280" started-at="2025-04-08T01:01:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:05:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a music video with blank hashtag on details screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.MakeMusicVideoDetailsOptionsPage.tapMakeMusicVideo(MakeMusicVideoDetailsOptionsPage.java:508)
+	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.tryToMakeMusic(MakeMusicVideoDetailsOptionsTest.java:197)
+	at ✽.try to make music video(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:47)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="302800" started-at="2025-04-08T01:05:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a music video with hashtag on details screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="252194" started-at="2025-04-08T01:10:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a music video with blank description on details screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="runScenario" duration-ms="256550" started-at="2025-04-08T01:14:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a music video with description on details screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify each options in Make Music Video Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="restartApp" is-config="true" duration-ms="877" started-at="2025-04-08T01:19:10Z" finished-at="2025-04-08T01:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2025-04-08T01:19:10Z" finished-at="2025-04-08T01:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownAppium()[pri:0, instance:MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest@527740a2]" name="tearDownAppium" is-config="true" duration-ms="189" started-at="2025-04-08T05:12:28Z" finished-at="2025-04-08T05:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAppium -->
+      </class> <!-- MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest -->
+      <class name="BlockUserTest.BlockUserTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:BlockUserTest.BlockUserTest@65e2dbf3]" name="setUpClass" is-config="true" duration-ms="9" started-at="2025-04-08T05:00:38Z" finished-at="2025-04-08T05:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:BlockUserTest.BlockUserTest@65e2dbf3]" name="runScenario" duration-ms="342760" started-at="2025-04-08T05:00:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T05:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Block user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Block User Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Pages.BlockUserPage.unblockUser(BlockUserPage.java:116)
+	at BlockUserTest.BlockUserTest.blockUser(BlockUserTest.java:54)
+	at ✽.Block user(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/BlockUserTest/BlockUserTest.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:BlockUserTest.BlockUserTest@65e2dbf3]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T05:00:38Z" finished-at="2025-04-08T05:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:BlockUserTest.BlockUserTest@65e2dbf3]" name="restartApp" is-config="true" duration-ms="893" started-at="2025-04-08T05:06:21Z" finished-at="2025-04-08T05:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:BlockUserTest.BlockUserTest@65e2dbf3]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2025-04-08T05:06:22Z" finished-at="2025-04-08T05:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- BlockUserTest.BlockUserTest -->
+      <class name="SearchTest.SearchTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="setUpClass" is-config="true" duration-ms="16" started-at="2025-04-08T01:19:10Z" finished-at="2025-04-08T01:19:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T01:19:11Z" finished-at="2025-04-08T01:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="runScenario" duration-ms="232903" started-at="2025-04-08T01:19:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify the search across whole application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="runScenario" duration-ms="268867" started-at="2025-04-08T01:23:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for startags"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify the search across whole application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at SearchTest.SearchTest.findOnlyStartags(SearchTest.java:56)
+	at ✽.should find only startags(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SearchTest/SearchTest.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="runScenario" duration-ms="292035" started-at="2025-04-08T01:27:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T01:32:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tap in profile picture on search bar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify the search across whole application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="restartApp" is-config="true" duration-ms="907" started-at="2025-04-08T01:32:24Z" finished-at="2025-04-08T01:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:SearchTest.SearchTest@13a5fe33]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T01:32:25Z" finished-at="2025-04-08T01:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SearchTest.SearchTest -->
+      <class name="MusicVideoTabsTest.MusicVideoTabsTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MusicVideoTabsTest.MusicVideoTabsTest@5a8e6209]" name="setUpClass" is-config="true" duration-ms="7" started-at="2025-04-08T03:59:47Z" finished-at="2025-04-08T03:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14230e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:MusicVideoTabsTest.MusicVideoTabsTest@5a8e6209]" name="navigateTo" is-config="true" duration-ms="0" started-at="2025-04-08T03:59:47Z" finished-at="2025-04-08T03:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MusicVideoTabsTest.MusicVideoTabsTest@5a8e6209]" name="runScenario" duration-ms="632792" started-at="2025-04-08T03:59:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-08T04:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tab "Photos/Clips" test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tabs in music video"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:MusicVideoTabsTest.MusicVideoTabsTest@5a8e6209]" name="restartApp" is-config="true" duration-ms="839" started-at="2025-04-08T04:10:20Z" finished-at="2025-04-08T04:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MusicVideoTabsTest.MusicVideoTabsTest@5a8e6209]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2025-04-08T04:10:21Z" finished-at="2025-04-08T04:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MusicVideoTabsTest.MusicVideoTabsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

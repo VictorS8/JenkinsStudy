@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="68" failures="33" name="TestSuite" time="16,673.267" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/1w/0yywt1n94gj2slm0ynmxkg8h0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.6/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/photozig/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.6/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.7.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.6/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/photozig"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="photozig"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="java.ext.dirs" value="/Users/photozig/Library/Java/Extensions:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/resources.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/rt.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/sunrsasign.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/jsse.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/jce.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/charsets.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/jfr.jar:/Users/photozig/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.6/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="241.44">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkShowMessages(MakeMusicVideoDetailsOptionsPage.java:231)
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkSecondDetails(MakeMusicVideoDetailsOptionsPage.java:287)
+	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachRemixDetailsOption(MakeMusicVideoDetailsOptionsTest.java:57)
+	at ✽.verify each options(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:11)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5cbc508c
+
+Scenario: After make a music video and in the Music Video Details Screen # src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:9
+  Given navigate to make remix and then music video details              # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.setUpPage()
+  When tap in more options                                               # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.tapInMoreOptions()
+  Then verify each options                                               # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachRemixDetailsOption()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoDetailsOptionsPage.checkShowMessages(MakeMusicVideoDetailsOptionsPage.java:231)
+      	at Pages.MakeMusicVideoDetailsOptionsPage.checkSecondDetails(MakeMusicVideoDetailsOptionsPage.java:287)
+      	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachRemixDetailsOption(MakeMusicVideoDetailsOptionsTest.java:57)
+      	at ✽.verify each options(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:11)
+</system-out>
+    <system-err>abr 08, 2025 12:34:17 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMAÇÕES: Detected dialect: W3C
+SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="230.701">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkSameTooltipInfo(MakeMusicVideoDetailsOptionsPage.java:341)
+	at Pages.MakeMusicVideoDetailsOptionsPage.checkTooltipGroup(MakeMusicVideoDetailsOptionsPage.java:366)
+	at Pages.MakeMusicVideoDetailsOptionsPage.tooltipFirstGroup(MakeMusicVideoDetailsOptionsPage.java:371)
+	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachTooltipInfoOfEachOption(MakeMusicVideoDetailsOptionsTest.java:66)
+	at ✽.verify each tooltip info of each option(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:16)
+</failure>
+    <system-out>
+Scenario: Seeing each tooltip info about each option        # src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:14
+  Given navigate to make remix and then music video details # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.setUpPage()
+  When tap in more options                                  # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.tapInMoreOptions()
+  Then verify each tooltip info of each option              # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachTooltipInfoOfEachOption()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoDetailsOptionsPage.checkSameTooltipInfo(MakeMusicVideoDetailsOptionsPage.java:341)
+      	at Pages.MakeMusicVideoDetailsOptionsPage.checkTooltipGroup(MakeMusicVideoDetailsOptionsPage.java:366)
+      	at Pages.MakeMusicVideoDetailsOptionsPage.tooltipFirstGroup(MakeMusicVideoDetailsOptionsPage.java:371)
+      	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.verifyEachTooltipInfoOfEachOption(MakeMusicVideoDetailsOptionsTest.java:66)
+      	at ✽.verify each tooltip info of each option(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:16)
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="268.278"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="221.174"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="222.072"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="237.196"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="234.478"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="225.279">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoDetailsOptionsPage.tapMakeMusicVideo(MakeMusicVideoDetailsOptionsPage.java:508)
+	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.tryToMakeMusic(MakeMusicVideoDetailsOptionsTest.java:197)
+	at ✽.try to make music video(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:47)
+</failure>
+    <system-out>
+Scenario: Make a music video with blank hashtag on details screen # src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:44
+  Given navigate to make remix and then music video details       # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.setUpPage()
+  When make sure hashtag text field is blank                      # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.makeSureHashtagTextFieldIsBlank()
+  But change startag for unique                                   # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.changeStartagForUnique()
+  And try to make music video                                     # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.tryToMakeMusic()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoDetailsOptionsPage.tapMakeMusicVideo(MakeMusicVideoDetailsOptionsPage.java:508)
+      	at MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.tryToMakeMusic(MakeMusicVideoDetailsOptionsTest.java:197)
+      	at ✽.try to make music video(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoDetailsOptionsTest/MakeMusicVideoDetailsOptionsTest.feature:47)
+  Then make a music video correctly                               # MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest.makeAMusicVideoCorrectly()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="302.8"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="252.193"/>
+  <testcase classname="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest" name="runScenario" time="256.55"/>
+  <testcase classname="SearchTest.SearchTest" name="runScenario" time="232.905"/>
+  <testcase classname="SearchTest.SearchTest" name="runScenario" time="268.866">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at SearchTest.SearchTest.findOnlyStartags(SearchTest.java:56)
+	at ✽.should find only startags(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SearchTest/SearchTest.feature:16)
+</failure>
+    <system-out>
+Scenario: Search for startags                             # src/test/resources/SearchTest/SearchTest.feature:14
+  Given navigate to browser screen and tap in search icon # SearchTest.SearchTest.setUpPage()
+  When search for startags in startags tab                # SearchTest.SearchTest.searchForStartags()
+  Then should find only startags                          # SearchTest.SearchTest.findOnlyStartags()
+      java.lang.AssertionError: expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertTrue(Assert.java:42)
+      	at org.testng.Assert.assertTrue(Assert.java:52)
+      	at SearchTest.SearchTest.findOnlyStartags(SearchTest.java:56)
+      	at ✽.should find only startags(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SearchTest/SearchTest.feature:16)
+</system-out>
+  </testcase>
+  <testcase classname="SearchTest.SearchTest" name="runScenario" time="292.034"/>
+  <testcase classname="MakeSnapshotTest.MakeSnapshotTest" name="runScenario" time="300.094"/>
+  <testcase classname="MakeSnapshotTest.MakeSnapshotTest" name="runScenario" time="251.028">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.BasePage.tapListOptionsSelectedByText(BasePage.java:595)
+	at Pages.MakeSnapshotPage.searchBackgroundFeatured(MakeSnapshotPage.java:150)
+	at MakeSnapshotTest.MakeSnapshotTest.changeBackgroundCorrectly(MakeSnapshotTest.java:73)
+	at ✽.change background correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeSnapshotTest/MakeSnapshotTest.feature:16)
+</failure>
+    <system-out>
+Scenario: Change custom background            # src/test/resources/MakeSnapshotTest/MakeSnapshotTest.feature:13
+  Given Login succeeds                        # MakeSnapshotTest.MakeSnapshotTest.setUpPage()
+  Given select a music video in stream screen # MakeSnapshotTest.MakeSnapshotTest.selectMusicVideoInStreamScreen()
+  When goes to movie preview                  # MakeSnapshotTest.MakeSnapshotTest.goesToMoviePreview()
+  Then change background correctly            # MakeSnapshotTest.MakeSnapshotTest.changeBackgroundCorrectly()
+      java.lang.NullPointerException
+      	at Pages.BasePage.tapListOptionsSelectedByText(BasePage.java:595)
+      	at Pages.MakeSnapshotPage.searchBackgroundFeatured(MakeSnapshotPage.java:150)
+      	at MakeSnapshotTest.MakeSnapshotTest.changeBackgroundCorrectly(MakeSnapshotTest.java:73)
+      	at ✽.change background correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeSnapshotTest/MakeSnapshotTest.feature:16)
+</system-out>
+  </testcase>
+  <testcase classname="MakeSnapshotTest.MakeSnapshotTest" name="runScenario" time="320.356"/>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="260.059">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:11)
+</failure>
+    <system-out>
+Scenario: Make music video 1 click                              # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:10
+  Given Login succeeds                                          # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given I fill information correctly, select cover and template # MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+      	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+      	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:11)
+  When Touch on make music video with one click                 # MakeMusicVideoTest.MakeMusicVideoTest.touchOnMakeMusicVideoWithOneClick()
+  Then make my music video correctly                            # MakeMusicVideoTest.MakeMusicVideoTest.makeMyMusicVideoCorrectly()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="231.983"/>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="205.451">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.logOut(MakeMusicVideoPage.java:241)
+	at MakeMusicVideoTest.MakeMusicVideoTest.logOutFromAccount(MakeMusicVideoTest.java:87)
+	at ✽.i logged out from account(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:23)
+</failure>
+    <system-out>
+Scenario: Make music video without account                     # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:22
+  Given Login succeeds                                         # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given i logged out from account                              # MakeMusicVideoTest.MakeMusicVideoTest.logOutFromAccount()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.logOut(MakeMusicVideoPage.java:241)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.logOutFromAccount(MakeMusicVideoTest.java:87)
+      	at ✽.i logged out from account(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:23)
+  When I fill information correctly, select cover and template # MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate()
+  Then try to make music video and make login                  # MakeMusicVideoTest.MakeMusicVideoTest.tryMakeRemixAndMakeLogin()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="252.794">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:31)
+</failure>
+    <system-out>
+Scenario: Make Music video without account and make a new account # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:29
+  Given Login succeeds                                            # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given i logged out from account                                 # MakeMusicVideoTest.MakeMusicVideoTest.logOutFromAccount()
+  When I fill information correctly, select cover and template    # MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+      	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+      	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:31)
+  Then try to make music video and make a new account             # MakeMusicVideoTest.MakeMusicVideoTest.tryToMakeMusicVideoAndMakeANewAccount()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="215.726">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:36)
+</failure>
+    <system-out>
+Scenario: Make Music video information reset for each user      # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:35
+  Given Login succeeds                                          # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given I fill information correctly, select cover and template # MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+      	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+      	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:36)
+  When i logged out from account                                # MakeMusicVideoTest.MakeMusicVideoTest.logOutFromAccount()
+  Then verify if has information about other user               # MakeMusicVideoTest.MakeMusicVideoTest.verifyIfHasInformationAboutOtherUser()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="249.876">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at MakeMusicVideoTest.MakeMusicVideoTest.fillAllInformationNeeded(MakeMusicVideoTest.java:140)
+	at ✽.fill all information needed(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:43)
+</failure>
+    <system-out>
+Scenario: Make Music video with only videos       # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:41
+  Given Login succeeds                            # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given select only videos                        # MakeMusicVideoTest.MakeMusicVideoTest.selectOnlyVideos()
+  When fill all information needed                # MakeMusicVideoTest.MakeMusicVideoTest.fillAllInformationNeeded()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.fillAllInformationNeeded(MakeMusicVideoTest.java:140)
+      	at ✽.fill all information needed(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:43)
+  Then verify if music video is playing correctly # MakeMusicVideoTest.MakeMusicVideoTest.verifyIfMusicVideoIsPlayingCorrectly()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="245.477">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:48)
+</failure>
+    <system-out>
+Scenario: Make Music video on totally social mode               # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:47
+  Given Login succeeds                                          # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given I fill information correctly, select cover and template # MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+      	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+      	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:48)
+  When goes to music video details                              # MakeMusicVideoTest.MakeMusicVideoTest.goesToMusicVideoDetails()
+  Then select totally social mode and create successfully       # MakeMusicVideoTest.MakeMusicVideoTest.selectTotallySocialModeAndCreateSuccessfully()
+</system-out>
+  </testcase>
+  <testcase classname="MakeMusicVideoTest.MakeMusicVideoTest" name="runScenario" time="215.677">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:54)
+</failure>
+    <system-out>
+Scenario: Make music video with 1 click, change song and add photo # src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:53
+  Given Login succeeds                                             # MakeMusicVideoTest.MakeMusicVideoTest.setUpPage()
+  Given I fill information correctly, select cover and template    # MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.chooseTemplate(MakeMusicVideoPage.java:147)
+      	at Pages.MakeMusicVideoPage.fillAllInformationToMakeOneClickMusicVideo(MakeMusicVideoPage.java:42)
+      	at MakeMusicVideoTest.MakeMusicVideoTest.iFillInformationCorrectlySelectCoverAndTemplate(MakeMusicVideoTest.java:51)
+      	at ✽.I fill information correctly, select cover and template(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/MakeMusicVideoTest/MakeMusicVideoTest.feature:54)
+  When Touch on make music video with one click                    # MakeMusicVideoTest.MakeMusicVideoTest.touchOnMakeMusicVideoWithOneClick()
+  But Change song on music video preview                           # MakeMusicVideoTest.MakeMusicVideoTest.changeSongOnMusicVideoPreview()
+  And Add media on music video preview                             # MakeMusicVideoTest.MakeMusicVideoTest.addMediaOnMusicVideoPreview()
+  Then Information should change on preview                        # MakeMusicVideoTest.MakeMusicVideoTest.informationShouldChangeOnPreview()
+</system-out>
+  </testcase>
+  <testcase classname="ChangeTemplateTest.ChangeTemplateTest" name="runScenario" time="218.575"/>
+  <testcase classname="LikeMusicVideoTest.LikeMusicVideoTest" name="runScenario" time="203.234"/>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="203.222">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapLikeFeedMusicVideo(FeedMusicVideoPage.java:40)
+	at FeedMusicVideoTest.FeedMusicVideoTest.likeRemix(FeedMusicVideoTest.java:46)
+	at ✽.like the music video(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:10)
+</failure>
+    <system-out>
+Scenario: Like a music video                   # FeedMusicVideoTest/FeedMusicVideoTest.feature:9
+  Given navigate to feed screen and make login # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  When like the music video                    # FeedMusicVideoTest.FeedMusicVideoTest.likeRemix()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.tapLikeFeedMusicVideo(FeedMusicVideoPage.java:40)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.likeRemix(FeedMusicVideoTest.java:46)
+      	at ✽.like the music video(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:10)
+  Then the like counter should change          # FeedMusicVideoTest.FeedMusicVideoTest.likeRemixCounterChange()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="172.923">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapCommentFeedMusicVideo(FeedMusicVideoPage.java:61)
+	at FeedMusicVideoTest.FeedMusicVideoTest.tapCommentIcon(FeedMusicVideoTest.java:58)
+	at ✽.tap in comment icon(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:15)
+</failure>
+    <system-out>
+Scenario: Comment section of a music video              # FeedMusicVideoTest/FeedMusicVideoTest.feature:14
+  Given navigate to feed screen and make login          # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  When tap in comment icon                              # FeedMusicVideoTest.FeedMusicVideoTest.tapCommentIcon()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.tapCommentFeedMusicVideo(FeedMusicVideoPage.java:61)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.tapCommentIcon(FeedMusicVideoTest.java:58)
+      	at ✽.tap in comment icon(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:15)
+  Then should move to comment screen of the music video # FeedMusicVideoTest.FeedMusicVideoTest.commentSection()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="225.814">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapShareFeedMusicVideo(FeedMusicVideoPage.java:71)
+	at FeedMusicVideoTest.FeedMusicVideoTest.tapShareIcon(FeedMusicVideoTest.java:70)
+	at ✽.tap in share icon(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:20)
+</failure>
+    <system-out>
+Scenario: Share icon of a music video          # FeedMusicVideoTest/FeedMusicVideoTest.feature:19
+  Given navigate to feed screen and make login # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  When tap in share icon                       # FeedMusicVideoTest.FeedMusicVideoTest.tapShareIcon()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.tapShareFeedMusicVideo(FeedMusicVideoPage.java:71)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.tapShareIcon(FeedMusicVideoTest.java:70)
+      	at ✽.tap in share icon(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:20)
+  Then should show up options to share         # FeedMusicVideoTest.FeedMusicVideoTest.shareOptions()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="156.101">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.checkScreenLoaded(FeedMusicVideoPage.java:89)
+	at FeedMusicVideoTest.FeedMusicVideoTest.screenIsLoaded(FeedMusicVideoTest.java:82)
+	at ✽.screen is loaded(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:25)
+</failure>
+    <system-out>
+Scenario: Verify each options in a music video showed # FeedMusicVideoTest/FeedMusicVideoTest.feature:24
+  Given navigate to feed screen and make login        # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  When screen is loaded                               # FeedMusicVideoTest.FeedMusicVideoTest.screenIsLoaded()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.checkScreenLoaded(FeedMusicVideoPage.java:89)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.screenIsLoaded(FeedMusicVideoTest.java:82)
+      	at ✽.screen is loaded(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:25)
+  Then search for each option in music video screen   # FeedMusicVideoTest.FeedMusicVideoTest.eachOptionInMusicVideo()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="237.732">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.moreOptionTapOnFeed(FeedMusicVideoPage.java:158)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOwnMusicVideo(FeedMusicVideoTest.java:106)
+	at ✽.see own music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:31)
+</failure>
+    <system-out>
+Scenario: Tapping in button more &quot;...&quot; in your own music video # FeedMusicVideoTest/FeedMusicVideoTest.feature:30
+  Given navigate to feed screen and make login                 # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  When see own music video and tap in more option              # FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOwnMusicVideo()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.moreOptionTapOnFeed(FeedMusicVideoPage.java:158)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOwnMusicVideo(FeedMusicVideoTest.java:106)
+      	at ✽.see own music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:31)
+  Then show respective options to own music video              # FeedMusicVideoTest.FeedMusicVideoTest.verifyEachOwnMusicVideoOption()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="292.971">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:36)
+</failure>
+    <system-out>
+Scenario: Tapping in button more &quot;...&quot; in other music video # FeedMusicVideoTest/FeedMusicVideoTest.feature:35
+  Given navigate to feed screen and make login              # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+  When see other music video and tap in more option         # FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+      	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:36)
+  Then show respective options to other music video         # FeedMusicVideoTest.FeedMusicVideoTest.verifyEachOtherMusicVideoOption()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="211.916">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.tapSendPhotoButton(FeedMusicVideoPage.java:220)
+	at FeedMusicVideoTest.FeedMusicVideoTest.tapSendPhotoButton(FeedMusicVideoTest.java:136)
+	at ✽.tap in send photo button(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:41)
+</failure>
+    <system-out>
+Scenario: Sending a video and a photo          # FeedMusicVideoTest/FeedMusicVideoTest.feature:40
+  Given navigate to feed screen and make login # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  When tap in send photo button                # FeedMusicVideoTest.FeedMusicVideoTest.tapSendPhotoButton()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.tapSendPhotoButton(FeedMusicVideoPage.java:220)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.tapSendPhotoButton(FeedMusicVideoTest.java:136)
+      	at ✽.tap in send photo button(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:41)
+  Then send a video and a photo                # FeedMusicVideoTest.FeedMusicVideoTest.sendVideoAndPhoto()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="334.99">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:46)
+</failure>
+    <system-out>
+Scenario: Reporting for spam on feed                # FeedMusicVideoTest/FeedMusicVideoTest.feature:45
+  Given navigate to feed screen and make login      # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+  When see other music video and tap in more option # FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+      	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:46)
+  Then report for spam the post from others         # FeedMusicVideoTest.FeedMusicVideoTest.reportThePostFromOthers()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="292.648">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:51)
+</failure>
+    <system-out>
+Scenario: Reporting for inappropriate on feed            # FeedMusicVideoTest/FeedMusicVideoTest.feature:50
+  Given navigate to feed screen and make login           # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+BasePage swipeFinger - Element to swipe is null
+  When see other music video and tap in more option      # FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.otherMoreOptionClick(FeedMusicVideoPage.java:195)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.moreOptionOnOtherMusicVideo(FeedMusicVideoTest.java:120)
+      	at ✽.see other music video and tap in more option(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:51)
+  Then report for inappropriateness the post from others # FeedMusicVideoTest.FeedMusicVideoTest.reportForInappropriatenessThePostFromOthers()
+</system-out>
+  </testcase>
+  <testcase classname="FeedMusicVideoTest.FeedMusicVideoTest" name="runScenario" time="206.57">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.FeedMusicVideoPage.checkScreenLoaded(FeedMusicVideoPage.java:89)
+	at Pages.FeedMusicVideoPage.goToLoginFromSearchTab(FeedMusicVideoPage.java:310)
+	at Pages.FeedMusicVideoPage.doLogoutFromSearchTab(FeedMusicVideoPage.java:317)
+	at FeedMusicVideoTest.FeedMusicVideoTest.iLoggedOnSnapshotAccount(FeedMusicVideoTest.java:169)
+	at ✽.i logged on snapshot account(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:56)
+</failure>
+    <system-out>
+Scenario: Delete a snapshot on feed            # FeedMusicVideoTest/FeedMusicVideoTest.feature:55
+  Given navigate to feed screen and make login # FeedMusicVideoTest.FeedMusicVideoTest.setUpPage()
+  Given i logged on snapshot account           # FeedMusicVideoTest.FeedMusicVideoTest.iLoggedOnSnapshotAccount()
+      java.lang.NullPointerException
+      	at Pages.FeedMusicVideoPage.checkScreenLoaded(FeedMusicVideoPage.java:89)
+      	at Pages.FeedMusicVideoPage.goToLoginFromSearchTab(FeedMusicVideoPage.java:310)
+      	at Pages.FeedMusicVideoPage.doLogoutFromSearchTab(FeedMusicVideoPage.java:317)
+      	at FeedMusicVideoTest.FeedMusicVideoTest.iLoggedOnSnapshotAccount(FeedMusicVideoTest.java:169)
+      	at ✽.i logged on snapshot account(classpath:FeedMusicVideoTest/FeedMusicVideoTest.feature:56)
+  When creating a snapshot from feed           # FeedMusicVideoTest.FeedMusicVideoTest.creatingASnapshotFromFeed()
+  Then delete snapshot successfully            # FeedMusicVideoTest.FeedMusicVideoTest.deleteSnapshotSuccessfully()
+</system-out>
+  </testcase>
+  <testcase classname="LoginTest.LoginTest" name="runScenario" time="201.729"/>
+  <testcase classname="LoginTest.LoginTest" name="runScenario" time="196.89"/>
+  <testcase classname="LoginTest.LoginTest" name="runScenario" time="200.081"/>
+  <testcase classname="VerificationTest.VerificationTest" name="runScenario" time="250.822"/>
+  <testcase classname="VerificationTest.VerificationTest" name="runScenario" time="172.923">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.VerificationPage.countWatchLists(VerificationPage.java:78)
+	at Pages.VerificationPage.checkLoggedOutFilters(VerificationPage.java:120)
+	at VerificationTest.VerificationTest.seeWatchListsWithoutBeingLogged(VerificationTest.java:53)
+	at ✽.see watch lists without being logged(classpath:VerificationTest/VerificationTest.feature:15)
+</failure>
+    <system-out>
+Scenario: Verify difference between logged and not logged watch lists # VerificationTest/VerificationTest.feature:14
+  Given pass tutorial and initial screens                             # VerificationTest.VerificationTest.setUpPage()
+  When see watch lists without being logged                           # VerificationTest.VerificationTest.seeWatchListsWithoutBeingLogged()
+      java.lang.NullPointerException
+      	at Pages.VerificationPage.countWatchLists(VerificationPage.java:78)
+      	at Pages.VerificationPage.checkLoggedOutFilters(VerificationPage.java:120)
+      	at VerificationTest.VerificationTest.seeWatchListsWithoutBeingLogged(VerificationTest.java:53)
+      	at ✽.see watch lists without being logged(classpath:VerificationTest/VerificationTest.feature:15)
+  Then compare with logged watch lists                                # VerificationTest.VerificationTest.compareWithLoggedWatchLists()
+</system-out>
+  </testcase>
+  <testcase classname="VerificationTest.VerificationTest" name="runScenario" time="182.557">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.VerificationPage.verifyEachSubTab(VerificationPage.java:189)
+	at VerificationTest.VerificationTest.verifyEachSubTab(VerificationTest.java:78)
+	at ✽.verify each sub tab(classpath:VerificationTest/VerificationTest.feature:21)
+</failure>
+    <system-out>
+Scenario: Verify each sub tab filter on search tab # VerificationTest/VerificationTest.feature:19
+  Given pass tutorial and initial screens          # VerificationTest.VerificationTest.setUpPage()
+  When On Feed Screen                              # VerificationTest.VerificationTest.onFeedScreen()
+  Then verify each sub tab                         # VerificationTest.VerificationTest.verifyEachSubTab()
+      java.lang.NullPointerException
+      	at Pages.VerificationPage.verifyEachSubTab(VerificationPage.java:189)
+      	at VerificationTest.VerificationTest.verifyEachSubTab(VerificationTest.java:78)
+      	at ✽.verify each sub tab(classpath:VerificationTest/VerificationTest.feature:21)
+</system-out>
+  </testcase>
+  <testcase classname="VerificationTest.VerificationTest" name="runScenario" time="168.552"/>
+  <testcase classname="PlayerTest.PlayerTest" name="runScenario" time="257.03"/>
+  <testcase classname="PlayerTest.PlayerTest" name="runScenario" time="376.401"/>
+  <testcase classname="PlayerTest.PlayerTest" name="runScenario" time="820.207"/>
+  <testcase classname="PlayerTest.PlayerTest" name="runScenario" time="201.629"/>
+  <testcase classname="TabBarTest.TabBarTest" name="runScenario" time="299.779"/>
+  <testcase classname="MusicVideoTabsTest.MusicVideoTabsTest" name="runScenario" time="632.792"/>
+  <testcase classname="ChangeSettingsTest.ChangeSettingsTest" name="runScenario" time="202.356">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+</failure>
+    <system-out>
+Scenario: Change password                                         # ChangeSettingsTest/ChangeSettingsTest.feature:9
+  Given I navigate to the settings made login and went to profile # ChangeSettingsTest.ChangeSettingsTest.setUpPage()
+      java.lang.NullPointerException
+      	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+      	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+      	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+  When tap in change password                                     # ChangeSettingsTest.ChangeSettingsTest.tapInPassword()
+  Then show option to change the password                         # ChangeSettingsTest.ChangeSettingsTest.changePassword()
+</system-out>
+  </testcase>
+  <testcase classname="ChangeSettingsTest.ChangeSettingsTest" name="runScenario" time="182.939">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+</failure>
+    <system-out>
+Scenario: Change email                                            # ChangeSettingsTest/ChangeSettingsTest.feature:14
+  Given I navigate to the settings made login and went to profile # ChangeSettingsTest.ChangeSettingsTest.setUpPage()
+      java.lang.NullPointerException
+      	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+      	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+      	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+  When tap in change email                                        # ChangeSettingsTest.ChangeSettingsTest.tapInEmail()
+  Then show option to change the email                            # ChangeSettingsTest.ChangeSettingsTest.changeEmail()
+</system-out>
+  </testcase>
+  <testcase classname="ChangeSettingsTest.ChangeSettingsTest" name="runScenario" time="181.943">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+</failure>
+    <system-out>
+Scenario: Forgot password fails                                   # ChangeSettingsTest/ChangeSettingsTest.feature:19
+  Given I navigate to the settings made login and went to profile # ChangeSettingsTest.ChangeSettingsTest.setUpPage()
+      java.lang.NullPointerException
+      	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+      	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+      	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+  Given i logged out                                              # ChangeSettingsTest.ChangeSettingsTest.iLoggedOut()
+  When insert wrong input                                         # ChangeSettingsTest.ChangeSettingsTest.insertWrongInput()
+  Then shows error                                                # ChangeSettingsTest.ChangeSettingsTest.showsError()
+</system-out>
+  </testcase>
+  <testcase classname="ChangeSettingsTest.ChangeSettingsTest" name="runScenario" time="232.667">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+</failure>
+    <system-out>
+Scenario: Forgot password success                                 # ChangeSettingsTest/ChangeSettingsTest.feature:25
+  Given I navigate to the settings made login and went to profile # ChangeSettingsTest.ChangeSettingsTest.setUpPage()
+      java.lang.NullPointerException
+      	at Pages.ChangeSettingsPage.tapInProfile(ChangeSettingsPage.java:16)
+      	at ChangeSettingsTest.ChangeSettingsTest.setUpPage(ChangeSettingsTest.java:38)
+      	at ✽.I navigate to the settings made login and went to profile(classpath:ChangeSettingsTest/ChangeSettingsTest.feature:6)
+  Given i logged out                                              # ChangeSettingsTest.ChangeSettingsTest.iLoggedOut()
+  When insert right input                                         # ChangeSettingsTest.ChangeSettingsTest.insertRightInput()
+  Then shows successful request                                   # ChangeSettingsTest.ChangeSettingsTest.showsSuccessfulRequest()
+</system-out>
+  </testcase>
+  <testcase classname="CommentTest.CommentTest" name="runScenario" time="221.653"/>
+  <testcase classname="CommentTest.CommentTest" name="runScenario" time="217.632">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.MakeMusicVideoPage.logOut(MakeMusicVideoPage.java:241)
+	at CommentTest.CommentTest.loggedOutFromAccount(CommentTest.java:58)
+	at ✽.i logged out from account(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/CommentTest/CommentTest.feature:15)
+</failure>
+    <system-out>
+Scenario: Make a comment without account       # src/test/resources/CommentTest/CommentTest.feature:14
+  Given navigate to home screen and make login # CommentTest.CommentTest.setUpPage()
+  Given i logged out from account              # CommentTest.CommentTest.loggedOutFromAccount()
+      java.lang.NullPointerException
+      	at Pages.MakeMusicVideoPage.logOut(MakeMusicVideoPage.java:241)
+      	at CommentTest.CommentTest.loggedOutFromAccount(CommentTest.java:58)
+      	at ✽.i logged out from account(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/CommentTest/CommentTest.feature:15)
+  When select comment section                  # CommentTest.CommentTest.selectCommentSection()
+  Then make a comment without account          # CommentTest.CommentTest.makeACommentWithoutAccount()
+</system-out>
+  </testcase>
+  <testcase classname="CommentTest.CommentTest" name="runScenario" time="252.11"/>
+  <testcase classname="CommentTest.CommentTest" name="runScenario" time="211.631"/>
+  <testcase classname="ChangeSongTest.ChangeSongTest" name="runScenario" time="160.885"/>
+  <testcase classname="SignUpTest.SignUpTest" name="runScenario" time="175.888"/>
+  <testcase classname="SignUpTest.SignUpTest" name="runScenario" time="212.425"/>
+  <testcase classname="SignUpTest.SignUpTest" name="runScenario" time="210.525">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.SignUpPage.signUp(SignUpPage.java:126)
+	at SignUpTest.SignUpTest.signUpCorrectly(SignUpTest.java:71)
+	at ✽.sign up correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SignUpTest/SignUpTest.feature:20)
+</failure>
+    <system-out>
+Scenario: Sign up, make music video and see lists on browser # src/test/resources/SignUpTest/SignUpTest.feature:19
+  Given I navigate to the login page and click in Sign up    # SignUpTest.SignUpTest.setUpPage()
+  Given sign up correctly                                    # SignUpTest.SignUpTest.signUpCorrectly()
+      java.lang.NullPointerException
+      	at Pages.SignUpPage.signUp(SignUpPage.java:126)
+      	at SignUpTest.SignUpTest.signUpCorrectly(SignUpTest.java:71)
+      	at ✽.sign up correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SignUpTest/SignUpTest.feature:20)
+  When make the first music video                            # SignUpTest.SignUpTest.makeTheFirstMusicVideo()
+  Then see this music video on lists browser                 # SignUpTest.SignUpTest.seeThisMusicVideoOnListsBrowser()
+</system-out>
+  </testcase>
+  <testcase classname="SignUpTest.SignUpTest" name="runScenario" time="161.666">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.SignUpPage.signUp(SignUpPage.java:126)
+	at SignUpTest.SignUpTest.signUpCorrectly(SignUpTest.java:71)
+	at ✽.sign up correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SignUpTest/SignUpTest.feature:26)
+</failure>
+    <system-out>
+Scenario: Sign up, make music video and see creation date # src/test/resources/SignUpTest/SignUpTest.feature:25
+  Given I navigate to the login page and click in Sign up # SignUpTest.SignUpTest.setUpPage()
+  Given sign up correctly                                 # SignUpTest.SignUpTest.signUpCorrectly()
+      java.lang.NullPointerException
+      	at Pages.SignUpPage.signUp(SignUpPage.java:126)
+      	at SignUpTest.SignUpTest.signUpCorrectly(SignUpTest.java:71)
+      	at ✽.sign up correctly(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/SignUpTest/SignUpTest.feature:26)
+  When make the first music video                         # SignUpTest.SignUpTest.makeTheFirstMusicVideo()
+  But I logged out                                        # SignUpTest.SignUpTest.iLoggedOut()
+  Then I check music video created                        # SignUpTest.SignUpTest.iCheckMusicVideoCreated()
+</system-out>
+  </testcase>
+  <testcase classname="DeleteTest.DeleteTest" name="runScenario" time="176.569"/>
+  <testcase classname="DeleteTest.DeleteTest" name="runScenario" time="212.336">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.DeletePage.deleteSnapshotOnFeed(DeletePage.java:94)
+	at Pages.DeletePage.deletePost(DeletePage.java:68)
+	at DeleteTest.DeleteTest.deleteAPost(DeleteTest.java:57)
+	at ✽.delete a post(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/DeleteTest/DeleteTest.feature:14)
+</failure>
+    <system-out>
+Scenario: Delete a post on Feed                        # src/test/resources/DeleteTest/DeleteTest.feature:12
+  Given i make login and navigate to the stream screen # DeleteTest.DeleteTest.setUpPage()
+  When go to feed screen                               # DeleteTest.DeleteTest.goToFeedScreen()
+  Then delete a post                                   # DeleteTest.DeleteTest.deleteAPost()
+      java.lang.NullPointerException
+      	at Pages.DeletePage.deleteSnapshotOnFeed(DeletePage.java:94)
+      	at Pages.DeletePage.deletePost(DeletePage.java:68)
+      	at DeleteTest.DeleteTest.deleteAPost(DeleteTest.java:57)
+      	at ✽.delete a post(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/DeleteTest/DeleteTest.feature:14)
+</system-out>
+  </testcase>
+  <testcase classname="BlockUserTest.BlockUserTest" name="runScenario" time="342.759">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Pages.BlockUserPage.unblockUser(BlockUserPage.java:116)
+	at BlockUserTest.BlockUserTest.blockUser(BlockUserTest.java:54)
+	at ✽.Block user(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/BlockUserTest/BlockUserTest.feature:9)
+</failure>
+    <system-out>
+Scenario: Block user              # src/test/resources/BlockUserTest/BlockUserTest.feature:6
+  Given I am logged in            # BlockUserTest.BlockUserTest.setUpPage()
+  When Select music video in home # BlockUserTest.BlockUserTest.selectMusicVideoInHome()
+No list of elements was shown on screen !
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+  Then Block user                 # BlockUserTest.BlockUserTest.blockUser()
+      java.lang.NullPointerException
+      	at Pages.BlockUserPage.unblockUser(BlockUserPage.java:116)
+      	at BlockUserTest.BlockUserTest.blockUser(BlockUserTest.java:54)
+      	at ✽.Block user(file:///Users/photozig/Documents/GitHub/musicvideo_android_tests/MusicVideoAppiumTest/src/test/resources/BlockUserTest/BlockUserTest.feature:9)
+</system-out>
+  </testcase>
+  <testcase classname="SendPhotosTest.SendPhotosTest" name="runScenario" time="168.163"/>
+  <testcase classname="SendPhotosTest.SendPhotosTest" name="runScenario" time="196.545"/>
+</testsuite>
