@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="MusicVideoTabsTest.MusicVideoTabsTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- MusicVideoTabsTest.MusicVideoTabsTest -->
+      <class name="MakeMusicVideoTest.MakeMusicVideoTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 2 3 4 5 6 7"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- MakeMusicVideoTest.MakeMusicVideoTest -->
+      <class name="MakeSnapshotTest.MakeSnapshotTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- MakeSnapshotTest.MakeSnapshotTest -->
+      <class name="SearchTest.SearchTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- SearchTest.SearchTest -->
+      <class name="BlockUserTest.BlockUserTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- BlockUserTest.BlockUserTest -->
+      <class name="DeleteTest.DeleteTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- DeleteTest.DeleteTest -->
+      <class name="LoginTest.LoginTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- LoginTest.LoginTest -->
+      <class name="ChangeTemplateTest.ChangeTemplateTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- ChangeTemplateTest.ChangeTemplateTest -->
+      <class name="SendPhotosTest.SendPhotosTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- SendPhotosTest.SendPhotosTest -->
+      <class name="FeedMusicVideoTest.FeedMusicVideoTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- FeedMusicVideoTest.FeedMusicVideoTest -->
+      <class name="PlayerTest.PlayerTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- PlayerTest.PlayerTest -->
+      <class name="MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest">
+        <methods>
+          <include name="setUpAppium"/>
+          <include name="runScenario" invocation-numbers="0 1 7"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="tearDownAppium"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- MakeMusicVideoDetailsOptionsTest.MakeMusicVideoDetailsOptionsTest -->
+      <class name="ChangeSettingsTest.ChangeSettingsTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- ChangeSettingsTest.ChangeSettingsTest -->
+      <class name="CommentTest.CommentTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- CommentTest.CommentTest -->
+      <class name="VerificationTest.VerificationTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="1 2"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- VerificationTest.VerificationTest -->
+      <class name="ChangeSongTest.ChangeSongTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- ChangeSongTest.ChangeSongTest -->
+      <class name="LikeMusicVideoTest.LikeMusicVideoTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- LikeMusicVideoTest.LikeMusicVideoTest -->
+      <class name="TabBarTest.TabBarTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- TabBarTest.TabBarTest -->
+      <class name="SignUpTest.SignUpTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="2 3"/>
+          <include name="tearDownClass"/>
+          <include name="restartApp"/>
+          <include name="navigateTo"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- SignUpTest.SignUpTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
